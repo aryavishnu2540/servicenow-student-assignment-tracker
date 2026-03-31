@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Create Assignment">62e4604bfc7332107f440d4f4a65bf6a</sc_cat_item>
+        <sc_category display_value="Assignment Services">2c45a44bfc7332107f440d4f4a65bfa2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-03-27 13:22:27</sys_created_on>
+        <sys_id>ab85684bfc7332107f440d4f4a65bf6a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Services.Create Assignment</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sc_cat_item_category_ab85684bfc7332107f440d4f4a65bf6a</sys_update_name>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-03-27 13:22:27</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>
