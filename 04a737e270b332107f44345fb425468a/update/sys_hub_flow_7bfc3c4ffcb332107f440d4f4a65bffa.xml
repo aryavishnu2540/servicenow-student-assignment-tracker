@@ -1,0 +1,1039 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=445159000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>submission_flow</internal_name>
+        <label_cache>[{"name":"076ecb37-dd52-4960-abc5-2ffac33d32cf.record.due_date","label":"1 - Update Record➛Assignment Record➛Due Date","reference":"","reference_display":"Due Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_cdltd_student_0_assignments","column_name":"due_date","usedInstances":{"b2ee2beb-e490-490f-9c0d-97c9faca5c9b":["condition"]}},{"name":"Created_1.current.submission_date","label":"Trigger - Record Created➛Submissions Record➛Submission Date","reference":"","reference_display":"Submission Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_cdltd_student_0_submissions","column_name":"submission_date","usedInstances":{"b2ee2beb-e490-490f-9c0d-97c9faca5c9b":["condition"]}},{"name":"076ecb37-dd52-4960-abc5-2ffac33d32cf.record","label":"1 - Update Record➛Assignment Record","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"reference","base_type":"reference","usedInstances":{"b0004da9-f207-4a5e-82f4-299a109713cb":["record"],"32e7f321-ddb1-4c15-a8a4-5071ab704aff":["record"],"ecd3bea6-b0dd-493f-9a02-3470b0205a10":["record"],"b5dc0731-f9d1-4cc7-aa23-a2286781be2c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Submissions Record","reference":"x_cdltd_student_0_submissions","reference_display":"Submissions","type":"reference","base_type":"reference","usedInstances":{"4a09394a-87a7-400a-96eb-37f499714d6a":["assignment"]},"attributes":{}},{"name":"Created_1.current.student","label":"Trigger - Record Created➛Submissions Record➛Student","reference":"x_cdltd_student_0_students","reference_display":"Students","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_student_0_submissions","column_name":"student","usedInstances":{"4a09394a-87a7-400a-96eb-37f499714d6a":["student"]}},{"name":"Created_1.current.assignment","label":"Trigger - Record Created➛Submissions Record➛Assignment","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_student_0_submissions","column_name":"assignment","usedInstances":{"0ae962d0-118f-4118-b2ef-91afd52c94d1":["conditions"],"076ecb37-dd52-4960-abc5-2ffac33d32cf":["record"]}}]</label_cache>
+        <master_snapshot>8fe58d87fcf332107f440d4f4a65bf2a</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Submission Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>ce2f1b2cd80403107f4403f75f942758</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:04:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bfc3c4ffcb332107f440d4f4a65bffa</sys_id>
+        <sys_mod_count>102</sys_mod_count>
+        <sys_name>Submission Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_hub_flow_7bfc3c4ffcb332107f440d4f4a65bffa</sys_update_name>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:15</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-04-01 18:44:15">9e2f1b2cd80403107f4403f75f94275f</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_cdltd_student_0_submissions">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-04-01 18:44:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ce2f1b2cd80403107f4403f75f942758</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:14</sys_updated_on>
+        <table>x_cdltd_student_0_submissions</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>7bfc3c4ffcb332107f440d4f4a65bffa</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-04-01 18:44:14</sys_created_on>
+        <sys_id>862f1b2cd80403107f4403f75f942759</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:14</sys_updated_on>
+        <trigger display_value="">ce2f1b2cd80403107f4403f75f942758</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT IN862f1b2cd80403107f4403f75f942759"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT IN33fc3c4ffcb332107f440d4f4a65bffb"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7bfc3c4ffcb332107f440d4f4a65bffa</id>
+        <name>Submission Flow</name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:04:52</sys_created_on>
+        <sys_id>33fc3c4ffcb332107f440d4f4a65bffb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:04:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=33fc3c4ffcb332107f440d4f4a65bffb"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT IN444db08ffcb332107f440d4f4a65bf30,4c4d3c0ffcb332107f440d4f4a65bfda"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</model>
+        <model_id>7bfc3c4ffcb332107f440d4f4a65bffa</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7bfc3c4ffcb332107f440d4f4a65bffa</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:05:59</sys_created_on>
+        <sys_id>444db08ffcb332107f440d4f4a65bf30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:43:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_student/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=444db08ffcb332107f440d4f4a65bf30"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</model>
+        <model_id>7bfc3c4ffcb332107f440d4f4a65bffa</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7bfc3c4ffcb332107f440d4f4a65bffa</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:05:58</sys_created_on>
+        <sys_id>4c4d3c0ffcb332107f440d4f4a65bfda</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:43:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_student/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4c4d3c0ffcb332107f440d4f4a65bfda"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT IN333d3c0ffcb332107f440d4f4a65bfd6"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:05:58</sys_created_on>
+        <sys_id>333d3c0ffcb332107f440d4f4a65bfd6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 16:34:59</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLdtkkUDbDeo7W0fglSgRNIWSpOuSCnrXeTfO9TNsi6OHStb58WASIpzeHTmzNAP302GfMLMK3OOfEbMgRlyRSKO2HyzJjCs9LDH0UrPrRDHSIloY16pKCYDk0ZiNSerNUMKFlPEJAyKCJPIvLIHZoJYTGYbeYdhJ3g/3Sbf08yn4fmrF2CmsCdVjAlXnuXJ2F+FUoaCS1iHQwkRNn/my2c7k8EyZDgi3Lx6eByYaxRBDKXjf69NhRpEQAM0cYgVuLbrOJblXA5t/8L1bQe7iFgWbFgnpAZatfCyPTH5qgjHBJdkNCiLCML3nG3KFUtgPKNnhb7K8BvsfmnpdZQA9oBkc+Wjl7ORDQdLEQbkfq2AjWwkw5lNChav+OcMv+aRUBQzVfAII7GE/chaQ9YgckR0thRP0yLgx5Cnp8snmQgQK5+QUlHox4pITTgNGVDvZdxIEUcp+unt9f30xvvrw/z6t9upN72dzad31/PbG/M5PZf3b6x3zBDmWLzsOM/lx/8YEqY/oNxID77kwJRBFK7Vh0CFSSG958FWzteC4zBlpSHpoJiSu5IuTr9P05bVqeqgErFQ9t+3fzT1mw0ep9uLC4QwQR269WlFt9WTt0BTLSRUT7dPwfnIIRIeWtb/JOLcmV6r4ZXAhN1stzNhcrEAVYd8HSvN1hPiSnpKeAhjr8KjXgqYXhJ1drbnFxUcxRxe8Mrv0dRxSlvJ36dQAtwHyMKCm3RLmKef8i2nMTcEfDj4MYI4AmqUUfgavVuhRc4onRFGAlURAf0iq0+/a//liwrqMmjKQSNmGQ7EZBRHymLLE4M/9pnETdKTGpm1ZD46k22bUp9QxxrrPLYt16e2NbZGiGLXsgKnkslNMJ0oVU0Sb5LRx+WzTMXIDpBeneIcvFXNhoNklOxqsCBBSyS3jet+oNk9QXM0tJr9uUf5XynLbPhmV537jtZz7Uc4QfAGPtQGD3RAysQTWO8r3M9HwT+LSMQc1+1I72mE3NiuMH7K+fu5RyekIiL7AeyuOCcP3NJeCBfxTQ/u51Lbn5AhscD0XPA7fzSZ+AFyKB1fjIlj19xvC6MV27twvRfUlrTJtcsBW4WTtOntCO87AWDDB48GeLoD5sJs9b9s7n043dOScA+gRh7TXtYwvAULMSnm+s32Ruhkm9+nZjy9nAQjezwOxnBrgYynQ+Ije+iM0GR84V6OahnfgLIPpmph5ofcZfQtVAPpcIMv2dR5Xc7fUraSKKXL0fFVmkMfm76DsiCVSqk/i5GaioiMz4L/crddZ8xI+g9Qj+X6EBT6wxpvC8MXatnoFyD0rzC+E1r3mR2snN2VqiaSZPesJ1+pyPByNKFuu8XQSZvFbMF0wzz79uLADEk6c62tzzhU8Elr3nQ2Bq+QcE0m1Y5hT0vTFyl276Q4b0eKe3IbVeRi5z3yNWDfUQlL+4pT6piOSTxBq+Z9IwyYMCCIEVIj/yeRYMPfGGpJgFIG/TIENHT0U127WkWaUEoF/1ggWQfeqGYwbOQN1PkVqpoU+r0BEzxGo5Hb0Q9P6jfgNkAv4D37snV0ViRtSba3dh23b33P1upVkeyuIg6sS72eur04nXbq1vL00qlPLzz77u8tKM60pDz+B6MW251LHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT INdc219103fc3732107f440d4f4a65bfec,278652dbe87332107f441f9dc47e239f,26e696dbe87332107f441f9dc47e2349,32c1ffa3d07332107f447d356074f6ad,dba2bf27d0b332107f447d356074f686"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 16:32:50</sys_created_on>
+        <sys_id>dc219103fc3732107f440d4f4a65bfec</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 19:04:07</sys_updated_on>
+        <ui_id>076ecb37-dd52-4960-abc5-2ffac33d32cf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27iMBT9lcrrKEqAopZdBUIaqdNK7YhNp4oc+wYsOY/xg8Ig/n2uEydE0OlQqRs0rPB9+ZzLOfhlRwQnEzICHsW38ZgN4+FwEEWDm1GcjodpPOBDChCTgBQ0B6xUwErF8bym0rrAbjdVQA3wJA6ZVQoKE1KtxbLI8et+j6Vc6ErS7cJ3YISthORYSiYvrwGpqMLhBhSZ7I5S56KTNAWJpU8tvGO4Zlu5My+ZdbgS0QbvfefMZ66+zTCDTQ5OHAUENgYKDggko1JDQHJacGpKtSUToywGkD9/LOS2q1iJwjREc7rR4jfePIpcXQbIjPkldMfEL6gJZzNq6DNOZsaqbl+lYKCbnXDIqJVm2o81BY+VEWXRtBiayra7lDYvHpqNkG5A7/ewGkFA5Xg65A2t7HlVvj21IOeiqFfiKcqSUdmdqDFKpNY4ODsCEuod57SqRLFMKlWuRd2MUPJwKfEQZrJ8wzudUELKHO4Qt0rDOcZndXhBlXAkvuMYbN4HRG/1VKK4DlRwh8kv65A0xDyFpN5CvYKkVoJrZkpU5g6vWoMHvg+8/tPrjxTGbg+C6s08eGCTMC4NT7Sx9e1RcnCAPjXAXZf8tBXOANpa4UctgPeBezecxO77vVcPTcJ74frLvHBzSV7wNC7eDP+yQDT48E+2p6Ra9bonf22osfqnjaIh1zbNhcHn4FT2fyv7nAPOwNk6YC5Acv0O8Fb+kCM+A0lD5MgCPnm18MnuSfgyH8TjqP5ckBv+m5fh9Q/5KKSYGwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc219103fc3732107f440d4f4a65bfec"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>rani.a</sys_created_by>
+        <sys_created_on>2026-03-28 16:14:38</sys_created_on>
+        <sys_id>278652dbe87332107f441f9dc47e239f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 19:04:07</sys_updated_on>
+        <ui_id>32e7f321-ddb1-4c15-a8a4-5071ab704aff</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Y0VLjNhSGX0Xj6xBMnDiEq1IYpjvDsp2F2V4sOx5ZkmMV2XItmWzK8O49shTbSdhsAukUplz66Ej6dfR/PnG+PniceifekB77YZwM8dgPBoHvHw8mkziYJP7xeOIfEer1vBxnDDJLRmRpnu+xqEzg4cEfh4zEwfiA0tHgYDgJ/QMck9HBIEkwCQIaDEjSt/MeH2Em5aoQeP7FLQARknJBS5Z7J1+/9bwCl7CXZqV38rAytK1YgWMmIPUGl1Om0eeF6NVD6HlhnqkkVcZyHfFF8NItcO5G0IdzGIFJRpXf89h3zXLKQE6ChWI9L8M5xVqW8yZSMkw/5aINpDzXsOSpUpJwrJlCOmWIZZgLNOM6RRhZYX3PrPdd8b9BXDAwSyUMakCMVp4TTkGR1wlHrqQw/KEdTs6xxte6rIiuyqbSkhOmbDUpS3Al9Fk3ZhM+FZrL3E7ROBaL2VJUWX5li+g1C3RuslIghhWmNuawsDkcPLlO5ezzQuwFz+squqoISbBonpJrhkuSXnAmzFXnVRZDbs/DWpc8rrSRCaYQkNXuE9VSzV6QyQSrrzLDRcHzaVSU8p7XG4L8rD8V8NBPhJzBfMWneR8Tc9Y+3B7uX0D8vA5/wSU3B/8Iy8Dkx56n5upMYKXa40P9o78qo94WY1mOmR3VhjOTSckLfQpb3TN32Meeg+9ossnPdNj6trNmC+D3iFChaaR0Ve/uRyASTmCqoNZxO20GdwZvC6EteMY0Twt30K3FLrtz0ZUdcMgd7YicNZ4j7gYw0/ZNYAFD2slrKDv2lyn7AV2vg6qGla2xWsbn30EETKIi63N3tnrzZ6DzM2D8MIzjMB6Ng9aHE5LQcZyEeEyC1nczeM2WGS7vovo126HmaJ0M9wLZjYkttCyYgFezAETRHwtRm3Q6SGIp4V2XrxICSg8v6uo2hAxe1JSsNZGWCC5TzKEVNZJMsG1UOsUacYUU3FYf3UjE3ak6M3poLiuUVUpDmoaRJfiWutvw9XLn7OCi50965U2AuX8AR5sbAW6NjdNIyw52AoOBhsEvU2OmPhxqHcOnUnZjcgt5TZ+S61odegpuJp+ukHe9CDrqgs3U2Ta0Bl2n7fivF4C34m8jXPCM14awZO7f8nSjp5i/ZCNCOpbfwxfPFpsvDH12tq5kF0MPn9dG3h395hx9tPEzmoVLPor3bektdl9Y+tcVT8c7m3r0bur/ialHm21FloykqvhPRnTH2FdshtoPZHQGltCMrtv9h3k7/lD5udoFBNeN1qf07wJD+P6T5T9nYf/GxxutlAyW36CSzjuuv618PyAFMpoPNM/nGWGllDqGwtzVg/TWu7Vp7BTlYP72LyaUYoVixnJELAV9u1xc2vzf4ftVMURSRu4Q2AxB2QoBUCCuXephYVPXOXPKdt0ZHT5n793Y3aLgTQOz5V6rv6M21ZlYYfa3m4+XLbHjF7avcDQKwndmX9y/ihkd0FIWhTvbnnvYt38AkJLTQI4ZAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=278652dbe87332107f441f9dc47e239f"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>rani.a</sys_created_by>
+        <sys_created_on>2026-03-28 16:16:13</sys_created_on>
+        <sys_id>26e696dbe87332107f441f9dc47e2349</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 19:04:07</sys_updated_on>
+        <ui_id>50540149-99fc-4338-aee4-4c35b6ecfc5d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VUTYvbMBD9K0bnJMTJutvNbUm6UNgPaCA9LIuR5XEikCVXkpNNQ/57R7bsuNlQYthbwZd5ftLMG72Z1wPhKZmRKGFhwtiXaBqOx1P8kixM78LxHbDo6216SwZE0hyQKdQ6FrAFgdCWitJhXGYKw5SbQtD9yqPfa5RtuEg1SDJ7fRuQgmq8x4Ims8PZr2sLETTB7DPy6Ku4UJjdFw5iG8UZ+PjRH5s3oNKpK2M8IPBuQaaA+TMqDAxITmVKrdL7FtFA0xcpTsCGS4u3EUd+N/w35rsZO14GqIhB/a8NY9+cGs4W1NKl1SWzpfbUuliDvTi0EofD4FlJCIbDTrc7pR8HJ65v99mbeGbYZf6kWnK57pB3iJzIky75m9ZKd6jgY8+dHvHlUshoKey8v4LwagWTPgqmPRTcOAV1818KyxW6kYTOMzQRzdMoUebyufYZafWuzuxfo4uLU1AatAAUzmbON95E2XKjdj8ajzxwWVXkfwrFqGgjaq3mSWldfw8EBOR4UZzTosBGxIVWW14dxmLz0VpgMMqE2mFSw9dyRJmTNkJX09ED4osKXlHNncwnvAYPHwfE7M1cUGNOYtHC8a/SVVJL9xriqlHVEaZ5Ye8xwRZ8ua791ThPpv8aZ4j+Ht8cjKFr6LzVvXFlOqkBwxG0kAY4mgHklIvAONiUDD1nslLgcH7YQb3P99tWV8hrXPjUarso2G8sg49c+bq7sZYN2AzNp22sSRR9zsq6tAQ+jlWvqfr/hubtDwTMYYSOBwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26e696dbe87332107f441f9dc47e2349"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>b2ee2beb-e490-490f-9c0d-97c9faca5c9b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:31:45</sys_created_on>
+        <sys_id>32c1ffa3d07332107f447d356074f6ad</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 19:04:07</sys_updated_on>
+        <ui_id>ecd3bea6-b0dd-493f-9a02-3470b0205a10</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU8iMRT9K6bPQOYDUHgzEpNNXE10w4trJnfaO9qk87FtB2EJ/31vZzojEaOY+GKWt96P9pzDOXC/ZVKwORujCMJZOOVxGMdREERn4zCdxmkYiRgQQzZgBeRIkxp5qQWdV6BqV9hug9Mp8jQ+HQoxiYbj2TQYQsonwyjLgMexiCOejdq93Y42hTSVgs3SX0AV/iSV0Fiw+f3DgFWg6S2Lms23r1rHglWQoqLR2w7ta/R2U7mzKHmdY2ET2RWv/ObCd05+LKhDSw5OGAwYri0WAglIBsrggOVQCLCl3rC51TUVNIK4KdSmn3iShW2J5rA28i+9PA7cXIbEjHsR+mPiBWrL2QIs3NHN3Na616uUHE2ricAMamUv9mvtwE1lZVm0KxZS1W2Xqs6L61YR1l+w933UhkBg5Xg65C2t7O6pfL7tQF7KopHEU1QlB9WfwFot09o6OFuGChuNc6gqWTwmlS5XslkmKPnoUdFhlKnymd408rEYAXe4R6QqjC6pvmjKS9DSkfhJ19DybsDMxlwoMOaFCmmY/KkdkpaYp5A0KjQSJI0T3DLXsrLn9NQKPfDdwMchnbznMD57MdTenS+RWCdcKCsSY+vm9SAhkMTAqWAOA3DeNz8dhSOAdlH41RjgbeA+DQe1q/3dk+u24bMw+bIsnH2nLHga3z4MH0UgiN79kd1zUuN6s2d/Y8HW5ncdBLFQYPHQ8W9MfM73R6DrfH8pUQnzBtzO9JhXDkPSwn9lfN88Wfpm/0fwZe4Pp0Hz+UYZ+G/+Dx7+ASGVb7kgCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=32c1ffa3d07332107f447d356074f6ad"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>463b8add-069a-445a-8771-618a50e8d02b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:35:36</sys_created_on>
+        <sys_id>dba2bf27d0b332107f447d356074f686</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 19:04:07</sys_updated_on>
+        <ui_id>b5dc0731-f9d1-4cc7-aa23-a2286781be2c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VV207bQBD9FbTPSeRLEiBviAipEgUJKl4ossa7Y7LS+tK9BNIo/96xvXaihNIg8YLqt53LzjnHc+zHNZOCzdgYRRCeh1Meh3EcBUF0Ng7TaZyGkYgBMWQDVkCOVKmRl1rQeQnK1YH1OjidIk/j06EQk2g4Pp8GQ0j5ZBhlGfA4FnHEs1Hbt9lQp5CmUrB68BdQhC+kEhoLNnt8GrAKNM2yqNlsvZc6FqyCFBWV3nVo99HbVVWfRcldjoVNZBe89p1znzn5NqcMNdVwwmDA8NViIZCAZKAMDlgOhQBb6hWbWe0ooBHEbaFWfcVCFrYlmsOrkb9p8jio6zIkZtyL0B8TL1AbzuZg4Z5u5tbpXq9ScjStJgIzcMpe7sbagtvKyrJoWyykqusulcuLm1YR1l+w8z6cIRBY1Txr5C2t7H5Rvtx1IK9k0UjiKaqSg+pPYK2WqbM1nDVDhY3GOVSVLJ6TSpdL2TQTlHz0rOgwylT5QjONfC5GwGvcI1IVRlcUnzfhB9CyJvGdrqHmzYCZlblUYMyWCmmY/HI1kpaYp5A0KjQSJM0m1M1cy8pe0KgleuCbgbdDOnlvw/j5dqF27txa4jXhQlmRGOua6UFCIIlBrYI5NMBFn/ywFY4A2lnhR7MAbwP3bjiIXe/2nty0Ce+Fyad54ewrecHT+PJm+JcFgujdj+zOJjVbb3bW31iwzvx0QRAL49JcWovicO3/VvYxBxyBs3PAlUQlzBvAu/XHnPBZTFoiexbwyZMHn+x/CZ/mg3AaNM8XcsN/82d4+gNfIvLCKgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dba2bf27d0b332107f447d356074f686"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT INb902f727d0b332107f447d356074f6dd,9df0bbe3d0b332107f447d356074f63f"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2af23767d0b332107f447d356074f632</block>
+        <comment/>
+        <connected_to>b2ee2beb-e490-490f-9c0d-97c9faca5c9b</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:32:46</sys_created_on>
+        <sys_id>b902f727d0b332107f447d356074f6dd</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:11</sys_updated_on>
+        <ui_id>463b8add-069a-445a-8771-618a50e8d02b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aef23767d0b332107f447d356074f631</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:28:05</sys_created_on>
+        <sys_id>9df0bbe3d0b332107f447d356074f63f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:11</sys_updated_on>
+        <ui_id>b2ee2beb-e490-490f-9c0d-97c9faca5c9b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4HPieGPOF1yK1oUKLCtwFL0shUGLdGJMFnyJDlpZuS/j7KdNGhTrBiGnXZK9ETyPVJ8cBvoxtWNs/f60lqxUsHi6+M4EMpj9L8NFFQYLAKmFRdOaJV3wDjYgGz8xW05WjZFJShbq9E1OBwJO/pIvxTEha0l7B7eE8vWQnKDg4IaDPE4NMGifXHldjXmEgqUVHLpjFArShecTmUEZTxnMUuTWZpEUfJhGheztIgTngJCSnGHxKtDQ8TvkfGbnXo+wu2BSRvuZcXROMAnh4ojUZcgLY6DChQHp83uiBgEfqfkM7AWylG5wAc/WfGTaidZ5gNLpB4Z9pfHYz4MsYfZWguGd7UX2CMOCjnkMC2bSn3u+/DjxxIa6Q7jJ6SxVA9rL9qrGCSVy7XefjkQ3gjVNThcSs1AHk/gaAxF49D6h0GJFRXKK6hrGk5eG70RXTJpqcKVpENYSr0lUr9dITAvPKQZQXhD+HUHP4ARvotPVIaSe5kFWMHybhOpnDPUwr4bS/6j8YL6BodW8n4aFGCZEbW7JJ4NDqr349drfLLBbXtFj+SQ53HIGkMzcKE9rmlOWnG//9ZEUYptG13MkBXpxYTzLJlM57NoAgXLJklZAktTniasDA0yWpKQNzhkv7bCvyH9G56aQ1ZmcZSd99R0ds5TZ9z0tpGS3xjJP/07fRRF0X8jnRpJ2Lw3xNBbR/7HPnr0pukZbL83HJnwC3vvsdvDV8Nf7GgBBDuFttp89y08Y/tfaSJ1C38GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7bfc3c4ffcb332107f440d4f4a65bffa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:05:59</sys_created_on>
+        <sys_id>4c4db08ffcb332107f440d4f4a65bf2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:05:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7bfc3c4ffcb332107f440d4f4a65bffa</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:05:59</sys_created_on>
+        <sys_id>984db08ffcb332107f440d4f4a65bf33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:05:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7bfc3c4ffcb332107f440d4f4a65bffa"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>submission_flow</internal_name>
+        <label_cache>[{"name":"076ecb37-dd52-4960-abc5-2ffac33d32cf.record.due_date","label":"1 - Update Record➛Assignment Record➛Due Date","reference":"","reference_display":"Due Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_cdltd_student_0_assignments","column_name":"due_date","usedInstances":{"b2ee2beb-e490-490f-9c0d-97c9faca5c9b":["condition"]}},{"name":"Created_1.current.submission_date","label":"Trigger - Record Created➛Submissions Record➛Submission Date","reference":"","reference_display":"Submission Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_cdltd_student_0_submissions","column_name":"submission_date","usedInstances":{"b2ee2beb-e490-490f-9c0d-97c9faca5c9b":["condition"]}},{"name":"076ecb37-dd52-4960-abc5-2ffac33d32cf.record","label":"1 - Update Record➛Assignment Record","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"reference","base_type":"reference","usedInstances":{"b0004da9-f207-4a5e-82f4-299a109713cb":["record"],"32e7f321-ddb1-4c15-a8a4-5071ab704aff":["record"],"ecd3bea6-b0dd-493f-9a02-3470b0205a10":["record"],"b5dc0731-f9d1-4cc7-aa23-a2286781be2c":["record"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current","label":"Trigger - Record Created➛Submissions Record","reference":"x_cdltd_student_0_submissions","reference_display":"Submissions","type":"reference","base_type":"reference","usedInstances":{"4a09394a-87a7-400a-96eb-37f499714d6a":["assignment"]},"attributes":{}},{"name":"Created_1.current.student","label":"Trigger - Record Created➛Submissions Record➛Student","reference":"x_cdltd_student_0_students","reference_display":"Students","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_student_0_submissions","column_name":"student","usedInstances":{"4a09394a-87a7-400a-96eb-37f499714d6a":["student"]}},{"name":"Created_1.current.assignment","label":"Trigger - Record Created➛Submissions Record➛Assignment","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"reference","base_type":"reference","parent_table_name":"x_cdltd_student_0_submissions","column_name":"assignment","usedInstances":{"0ae962d0-118f-4118-b2ef-91afd52c94d1":["conditions"],"076ecb37-dd52-4960-abc5-2ffac33d32cf":["record"]}}]</label_cache>
+        <master>true</master>
+        <name>Submission Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Submission Flow">7bfc3c4ffcb332107f440d4f4a65bffa</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8fe58d87fcf332107f440d4f4a65bf2a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8fe58d87fcf332107f440d4f4a65bf2a^sys_idNOT IN87e58d87fcf332107f440d4f4a65bf2b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8fe58d87fcf332107f440d4f4a65bf2a</id>
+        <name>Submission Flow</name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_id>87e58d87fcf332107f440d4f4a65bf2b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:43:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=87e58d87fcf332107f440d4f4a65bf2b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=8fe58d87fcf332107f440d4f4a65bf2a^sys_idNOT IN4fe58d87fcf332107f440d4f4a65bf36,8fe58d87fcf332107f440d4f4a65bf2b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</model>
+        <model_id>8fe58d87fcf332107f440d4f4a65bf2a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8fe58d87fcf332107f440d4f4a65bf2a</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_id>4fe58d87fcf332107f440d4f4a65bf36</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_student/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4fe58d87fcf332107f440d4f4a65bf36"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</model>
+        <model_id>8fe58d87fcf332107f440d4f4a65bf2a</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_8fe58d87fcf332107f440d4f4a65bf2a</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_id>8fe58d87fcf332107f440d4f4a65bf2b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_student/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=8fe58d87fcf332107f440d4f4a65bf2b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=8fe58d87fcf332107f440d4f4a65bf2a^sys_idNOT IN13e58d87fcf332107f440d4f4a65bf40"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_id>13e58d87fcf332107f440d4f4a65bf40</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 16:35:00</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/9VY227jNhD9FUFPLeACuthxnLdtkkUDbDeo7W0fglSgRNIWSpOuSCnrXeTfO9TNsi6OHStb58WASIpzeHTmzNAP302GfMLMK3OOfEbMgRlyRSKO2HyzJjCs9LDH0UrPrRDHSIloY16pKCYDk0ZiNSerNUMKFlPEJAyKCJPIvLIHZoJYTGYbeYdhJ3g/3Sbf08yn4fmrF2CmsCdVjAlXnuXJ2F+FUoaCS1iHQwkRNn/my2c7k8EyZDgi3Lx6eByYaxRBDKXjf69NhRpEQAM0cYgVuLbrOJblXA5t/8L1bQe7iFgWbFgnpAZatfCyPTH5qgjHBJdkNCiLCML3nG3KFUtgPKNnhb7K8BvsfmnpdZQA9oBkc+Wjl7ORDQdLEQbkfq2AjWwkw5lNChav+OcMv+aRUBQzVfAII7GE/chaQ9YgckR0thRP0yLgx5Cnp8snmQgQK5+QUlHox4pITTgNGVDvZdxIEUcp+unt9f30xvvrw/z6t9upN72dzad31/PbG/M5PZf3b6x3zBDmWLzsOM/lx/8YEqY/oNxID77kwJRBFK7Vh0CFSSG958FWzteC4zBlpSHpoJiSu5IuTr9P05bVqeqgErFQ9t+3fzT1mw0ep9uLC4QwQR269WlFt9WTt0BTLSRUT7dPwfnIIRIeWtb/JOLcmV6r4ZXAhN1stzNhcrEAVYd8HSvN1hPiSnpKeAhjr8KjXgqYXhJ1drbnFxUcxRxe8Mrv0dRxSlvJ36dQAtwHyMKCm3RLmKef8i2nMTcEfDj4MYI4AmqUUfgavVuhRc4onRFGAlURAf0iq0+/a//liwrqMmjKQSNmGQ7EZBRHymLLE4M/9pnETdKTGpm1ZD46k22bUp9QxxrrPLYt16e2NbZGiGLXsgKnkslNMJ0oVU0Sb5LRx+WzTMXIDpBeneIcvFXNhoNklOxqsCBBSyS3jet+oNk9QXM0tJr9uUf5XynLbPhmV537jtZz7Uc4QfAGPtQGD3RAysQTWO8r3M9HwT+LSMQc1+1I72mE3NiuMH7K+fu5RyekIiL7AeyuOCcP3NJeCBfxTQ/u51Lbn5AhscD0XPA7fzSZ+AFyKB1fjIlj19xvC6MV27twvRfUlrTJtcsBW4WTtOntCO87AWDDB48GeLoD5sJs9b9s7n043dOScA+gRh7TXtYwvAULMSnm+s32Ruhkm9+nZjy9nAQjezwOxnBrgYynQ+Ije+iM0GR84V6OahnfgLIPpmph5ofcZfQtVAPpcIMv2dR5Xc7fUraSKKXL0fFVmkMfm76DsiCVSqk/i5GaioiMz4L/crddZ8xI+g9Qj+X6EBT6wxpvC8MXatnoFyD0rzC+E1r3mR2snN2VqiaSZPesJ1+pyPByNKFuu8XQSZvFbMF0wzz79uLADEk6c62tzzhU8Elr3nQ2Bq+QcE0m1Y5hT0vTFyl276Q4b0eKe3IbVeRi5z3yNWDfUQlL+4pT6piOSTxBq+Z9IwyYMCCIEVIj/yeRYMPfGGpJgFIG/TIENHT0U127WkWaUEoF/1ggWQfeqGYwbOQN1PkVqpoU+r0BEzxGo5Hb0Q9P6jfgNkAv4D37snV0ViRtSba3dh23b33P1upVkeyuIg6sS72eur04nXbq1vL00qlPLzz77u8tKM60pDz+B6MW251LHwAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=8fe58d87fcf332107f440d4f4a65bf2a^sys_idNOT IN4ca15903fc3732107f440d4f4a65bf49,0307d6dbe87332107f441f9dc47e23fc,c307d6dbe87332107f441f9dc47e23fc,4bf23767d0b332107f447d356074f66c,87f23767d0b332107f447d356074f66c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 16:35:00</sys_created_on>
+        <sys_id>4ca15903fc3732107f440d4f4a65bf49</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>076ecb37-dd52-4960-abc5-2ffac33d32cf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVy27iMBT9lcrrKEqAopZdBUIaqdNK7YhNp4oc+wYsOY/xg8Ig/n2uEydE0OlQqRs0rPB9+ZzLOfhlRwQnEzICHsW38ZgN4+FwEEWDm1GcjodpPOBDChCTgBQ0B6xUwErF8bym0rrAbjdVQA3wJA6ZVQoKE1KtxbLI8et+j6Vc6ErS7cJ3YISthORYSiYvrwGpqMLhBhSZ7I5S56KTNAWJpU8tvGO4Zlu5My+ZdbgS0QbvfefMZ66+zTCDTQ5OHAUENgYKDggko1JDQHJacGpKtSUToywGkD9/LOS2q1iJwjREc7rR4jfePIpcXQbIjPkldMfEL6gJZzNq6DNOZsaqbl+lYKCbnXDIqJVm2o81BY+VEWXRtBiayra7lDYvHpqNkG5A7/ewGkFA5Xg65A2t7HlVvj21IOeiqFfiKcqSUdmdqDFKpNY4ODsCEuod57SqRLFMKlWuRd2MUPJwKfEQZrJ8wzudUELKHO4Qt0rDOcZndXhBlXAkvuMYbN4HRG/1VKK4DlRwh8kv65A0xDyFpN5CvYKkVoJrZkpU5g6vWoMHvg+8/tPrjxTGbg+C6s08eGCTMC4NT7Sx9e1RcnCAPjXAXZf8tBXOANpa4UctgPeBezecxO77vVcPTcJ74frLvHBzSV7wNC7eDP+yQDT48E+2p6Ra9bonf22osfqnjaIh1zbNhcHn4FT2fyv7nAPOwNk6YC5Acv0O8Fb+kCM+A0lD5MgCPnm18MnuSfgyH8TjqP5ckBv+m5fh9Q/5KKSYGwkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4ca15903fc3732107f440d4f4a65bf49"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>rani.a</sys_created_by>
+        <sys_created_on>2026-03-28 16:16:47</sys_created_on>
+        <sys_id>0307d6dbe87332107f441f9dc47e23fc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>32e7f321-ddb1-4c15-a8a4-5071ab704aff</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2Y0VLjNhSGX0Xj6xBMnDiEq1IYpjvDsp2F2V4sOx5ZkmMV2XItmWzK8O49shTbSdhsAukUplz66Ej6dfR/PnG+PniceifekB77YZwM8dgPBoHvHw8mkziYJP7xeOIfEer1vBxnDDJLRmRpnu+xqEzg4cEfh4zEwfiA0tHgYDgJ/QMck9HBIEkwCQIaDEjSt/MeH2Em5aoQeP7FLQARknJBS5Z7J1+/9bwCl7CXZqV38rAytK1YgWMmIPUGl1Om0eeF6NVD6HlhnqkkVcZyHfFF8NItcO5G0IdzGIFJRpXf89h3zXLKQE6ChWI9L8M5xVqW8yZSMkw/5aINpDzXsOSpUpJwrJlCOmWIZZgLNOM6RRhZYX3PrPdd8b9BXDAwSyUMakCMVp4TTkGR1wlHrqQw/KEdTs6xxte6rIiuyqbSkhOmbDUpS3Al9Fk3ZhM+FZrL3E7ROBaL2VJUWX5li+g1C3RuslIghhWmNuawsDkcPLlO5ezzQuwFz+squqoISbBonpJrhkuSXnAmzFXnVRZDbs/DWpc8rrSRCaYQkNXuE9VSzV6QyQSrrzLDRcHzaVSU8p7XG4L8rD8V8NBPhJzBfMWneR8Tc9Y+3B7uX0D8vA5/wSU3B/8Iy8Dkx56n5upMYKXa40P9o78qo94WY1mOmR3VhjOTSckLfQpb3TN32Meeg+9ossnPdNj6trNmC+D3iFChaaR0Ve/uRyASTmCqoNZxO20GdwZvC6EteMY0Twt30K3FLrtz0ZUdcMgd7YicNZ4j7gYw0/ZNYAFD2slrKDv2lyn7AV2vg6qGla2xWsbn30EETKIi63N3tnrzZ6DzM2D8MIzjMB6Ng9aHE5LQcZyEeEyC1nczeM2WGS7vovo126HmaJ0M9wLZjYkttCyYgFezAETRHwtRm3Q6SGIp4V2XrxICSg8v6uo2hAxe1JSsNZGWCC5TzKEVNZJMsG1UOsUacYUU3FYf3UjE3ak6M3poLiuUVUpDmoaRJfiWutvw9XLn7OCi50965U2AuX8AR5sbAW6NjdNIyw52AoOBhsEvU2OmPhxqHcOnUnZjcgt5TZ+S61odegpuJp+ukHe9CDrqgs3U2Ta0Bl2n7fivF4C34m8jXPCM14awZO7f8nSjp5i/ZCNCOpbfwxfPFpsvDH12tq5kF0MPn9dG3h395hx9tPEzmoVLPor3bektdl9Y+tcVT8c7m3r0bur/ialHm21FloykqvhPRnTH2FdshtoPZHQGltCMrtv9h3k7/lD5udoFBNeN1qf07wJD+P6T5T9nYf/GxxutlAyW36CSzjuuv618PyAFMpoPNM/nGWGllDqGwtzVg/TWu7Vp7BTlYP72LyaUYoVixnJELAV9u1xc2vzf4ftVMURSRu4Q2AxB2QoBUCCuXephYVPXOXPKdt0ZHT5n793Y3aLgTQOz5V6rv6M21ZlYYfa3m4+XLbHjF7avcDQKwndmX9y/ihkd0FIWhTvbnnvYt38AkJLTQI4ZAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0307d6dbe87332107f441f9dc47e23fc"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
+        <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>rani.a</sys_created_by>
+        <sys_created_on>2026-03-28 16:16:47</sys_created_on>
+        <sys_id>c307d6dbe87332107f441f9dc47e23fc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>50540149-99fc-4338-aee4-4c35b6ecfc5d</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VUTYvbMBD9K0bnJMTJutvNbUm6UNgPaCA9LIuR5XEikCVXkpNNQ/57R7bsuNlQYthbwZd5ftLMG72Z1wPhKZmRKGFhwtiXaBqOx1P8kixM78LxHbDo6216SwZE0hyQKdQ6FrAFgdCWitJhXGYKw5SbQtD9yqPfa5RtuEg1SDJ7fRuQgmq8x4Ims8PZr2sLETTB7DPy6Ku4UJjdFw5iG8UZ+PjRH5s3oNKpK2M8IPBuQaaA+TMqDAxITmVKrdL7FtFA0xcpTsCGS4u3EUd+N/w35rsZO14GqIhB/a8NY9+cGs4W1NKl1SWzpfbUuliDvTi0EofD4FlJCIbDTrc7pR8HJ65v99mbeGbYZf6kWnK57pB3iJzIky75m9ZKd6jgY8+dHvHlUshoKey8v4LwagWTPgqmPRTcOAV1818KyxW6kYTOMzQRzdMoUebyufYZafWuzuxfo4uLU1AatAAUzmbON95E2XKjdj8ajzxwWVXkfwrFqGgjaq3mSWldfw8EBOR4UZzTosBGxIVWW14dxmLz0VpgMMqE2mFSw9dyRJmTNkJX09ED4osKXlHNncwnvAYPHwfE7M1cUGNOYtHC8a/SVVJL9xriqlHVEaZ5Ye8xwRZ8ua791ThPpv8aZ4j+Ht8cjKFr6LzVvXFlOqkBwxG0kAY4mgHklIvAONiUDD1nslLgcH7YQb3P99tWV8hrXPjUarso2G8sg49c+bq7sZYN2AzNp22sSRR9zsq6tAQ+jlWvqfr/hubtDwTMYYSOBwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c307d6dbe87332107f441f9dc47e23fc"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>463b8add-069a-445a-8771-618a50e8d02b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:36:57</sys_created_on>
+        <sys_id>4bf23767d0b332107f447d356074f66c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>b5dc0731-f9d1-4cc7-aa23-a2286781be2c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VV207bQBD9FbTPSeRLEiBviAipEgUJKl4ossa7Y7LS+tK9BNIo/96xvXaihNIg8YLqt53LzjnHc+zHNZOCzdgYRRCeh1Meh3EcBUF0Ng7TaZyGkYgBMWQDVkCOVKmRl1rQeQnK1YH1OjidIk/j06EQk2g4Pp8GQ0j5ZBhlGfA4FnHEs1Hbt9lQp5CmUrB68BdQhC+kEhoLNnt8GrAKNM2yqNlsvZc6FqyCFBWV3nVo99HbVVWfRcldjoVNZBe89p1znzn5NqcMNdVwwmDA8NViIZCAZKAMDlgOhQBb6hWbWe0ooBHEbaFWfcVCFrYlmsOrkb9p8jio6zIkZtyL0B8TL1AbzuZg4Z5u5tbpXq9ScjStJgIzcMpe7sbagtvKyrJoWyykqusulcuLm1YR1l+w8z6cIRBY1Txr5C2t7H5Rvtx1IK9k0UjiKaqSg+pPYK2WqbM1nDVDhY3GOVSVLJ6TSpdL2TQTlHz0rOgwylT5QjONfC5GwGvcI1IVRlcUnzfhB9CyJvGdrqHmzYCZlblUYMyWCmmY/HI1kpaYp5A0KjQSJM0m1M1cy8pe0KgleuCbgbdDOnlvw/j5dqF27txa4jXhQlmRGOua6UFCIIlBrYI5NMBFn/ywFY4A2lnhR7MAbwP3bjiIXe/2nty0Ce+Fyad54ewrecHT+PJm+JcFgujdj+zOJjVbb3bW31iwzvx0QRAL49JcWovicO3/VvYxBxyBs3PAlUQlzBvAu/XHnPBZTFoiexbwyZMHn+x/CZ/mg3AaNM8XcsN/82d4+gNfIvLCKgkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4bf23767d0b332107f447d356074f66c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>b2ee2beb-e490-490f-9c0d-97c9faca5c9b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:36:57</sys_created_on>
+        <sys_id>87f23767d0b332107f447d356074f66c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>ecd3bea6-b0dd-493f-9a02-3470b0205a10</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVXU8iMRT9K6bPQOYDUHgzEpNNXE10w4trJnfaO9qk87FtB2EJ/31vZzojEaOY+GKWt96P9pzDOXC/ZVKwORujCMJZOOVxGMdREERn4zCdxmkYiRgQQzZgBeRIkxp5qQWdV6BqV9hug9Mp8jQ+HQoxiYbj2TQYQsonwyjLgMexiCOejdq93Y42hTSVgs3SX0AV/iSV0Fiw+f3DgFWg6S2Lms23r1rHglWQoqLR2w7ta/R2U7mzKHmdY2ET2RWv/ObCd05+LKhDSw5OGAwYri0WAglIBsrggOVQCLCl3rC51TUVNIK4KdSmn3iShW2J5rA28i+9PA7cXIbEjHsR+mPiBWrL2QIs3NHN3Na616uUHE2ricAMamUv9mvtwE1lZVm0KxZS1W2Xqs6L61YR1l+w933UhkBg5Xg65C2t7O6pfL7tQF7KopHEU1QlB9WfwFot09o6OFuGChuNc6gqWTwmlS5XslkmKPnoUdFhlKnymd408rEYAXe4R6QqjC6pvmjKS9DSkfhJ19DybsDMxlwoMOaFCmmY/KkdkpaYp5A0KjQSJI0T3DLXsrLn9NQKPfDdwMchnbznMD57MdTenS+RWCdcKCsSY+vm9SAhkMTAqWAOA3DeNz8dhSOAdlH41RjgbeA+DQe1q/3dk+u24bMw+bIsnH2nLHga3z4MH0UgiN79kd1zUuN6s2d/Y8HW5ncdBLFQYPHQ8W9MfM73R6DrfH8pUQnzBtzO9JhXDkPSwn9lfN88Wfpm/0fwZe4Pp0Hz+UYZ+G/+Dx7+ASGVb7kgCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=87f23767d0b332107f447d356074f66c"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=8fe58d87fcf332107f440d4f4a65bf2a^sys_idNOT IN8ff23767d0b332107f447d356074f66c,c3f23767d0b332107f447d356074f66d"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aef23767d0b332107f447d356074f631</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:36:57</sys_created_on>
+        <sys_id>8ff23767d0b332107f447d356074f66c</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>b2ee2beb-e490-490f-9c0d-97c9faca5c9b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V207cMBD9lZWfs1EuZCm8oUVISLRIBfWlRdHEHrNWnTj1BdhG++8db7ILKlQFtepTnxIfz+XMyRxlYCb4Pnh3bU6cU7cdO/58kzDVRYzeB9ZBi+yYcdMJ5ZXp6i2QsDvQIV6cy9lVaFpF2aabnYLHmXKzC3pSkFCu17D+9JpYvlJaWJwY9GCpj0fLjoefrpSgUjIDmR/xnJfFoiyyrHh3kDeLsskLUQJCSQU1NKgpdLmjTp0ikvxyJr/uI+68Vd3tdL6YqlztQGNFZJVnCcMHj51A4iNBO0xYC50Ab+x6j1gEcdnpR2ClOk/lWAx+cOo7NSyqKgZKpBE5jpf7Yz1pOMKSRAOiErgPdgrlK6M4ulEcgRKC9sun2Bhw2cdRxxQPjd5lGx3a7sOoCNsX2H0yQoIjEtjHSSP1aQ55tTL3H3csz1S3VWW61IaD3p/Ak3ZN8JHPwFBjS4XqFvqeFK17a+7UNpm4tOmtpkMqtbmnpnEjU+CReErCQnpG+OkW/gRWxSneUxlKHmk24BSvt9tL5UgmZJuEubVbanDucUhSt/4WIsVx5Gm4etQnpnCren9Cne9wmmOTPDfDEx8Mw5K+tUdR5ykPllTxqdsve03scbP5ErKsxGHIDhfIm/JwLkRVzA+OFtkcGl7NCymBl6UoCy5Ti5x2LRUBp+znhvo3Td/mzCOoZJVn1cvOPFi85MwXPPlGOxa/sWPchVe6Mcuy/3b8YzsqV48mmmbbNv+LbryJ1ht77rXmKq79dcTOd3+weLGm5VL8KXRv7Nc41CO2+QH+AUypCwcAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2af23767d0b332107f447d356074f632</block>
+        <comment/>
+        <connected_to>b2ee2beb-e490-490f-9c0d-97c9faca5c9b</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Submission Flow">8fe58d87fcf332107f440d4f4a65bf2a</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 17:36:57</sys_created_on>
+        <sys_id>c3f23767d0b332107f447d356074f66d</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:13</sys_updated_on>
+        <ui_id>463b8add-069a-445a-8771-618a50e8d02b</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8fe58d87fcf332107f440d4f4a65bf2a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_id>47e58d87fcf332107f440d4f4a65bf34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:43:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_8fe58d87fcf332107f440d4f4a65bf2a</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:52</sys_created_on>
+        <sys_id>8fe58d87fcf332107f440d4f4a65bf39</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-27 15:43:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_8fe58d87fcf332107f440d4f4a65bf2a"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>7bfc3c4ffcb332107f440d4f4a65bffa</sys_id>
+        <latest_snapshot>8fe58d87fcf332107f440d4f4a65bf2a</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch1-08-20-2025_09-08-2025_1328.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7bfc3c4ffcb332107f440d4f4a65bffa^sys_idNOT IN93e58d87fcf332107f440d4f4a65bf44"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"93e58d87fcf332107f440d4f4a65bf44","name":"plan","plan_signature":null}}</plan>
+        <plan_id>7bfc3c4ffcb332107f440d4f4a65bffa</plan_id>
+        <snapshot>1db3e320d84403107f4403f75f9427ff</snapshot>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-27 15:43:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93e58d87fcf332107f440d4f4a65bf44</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-01 18:44:14</sys_updated_on>
+        <trigger display_value="">ce2f1b2cd80403107f4403f75f942758</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7bfc3c4ffcb332107f440d4f4a65bffa"/>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="submission_status" table="x_cdltd_student_0_submissions" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>submission_status</element>
+            <name>x_cdltd_student_0_submissions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-01 19:02:25</sys_created_on>
+            <sys_id>9053afecd80403107f4403f75f9427a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>submission_status</sys_name>
+            <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_student_0_submissions_submission_status</sys_update_name>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-01 19:02:25</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>submission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Graded</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_submissions</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>kanishkar.m</sys_created_by>
+            <sys_created_on>2026-04-03 09:45:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63f6b709f80403107f448fd92d61a850</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-05 10:09:53</sys_updated_on>
+            <value>graded</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>submission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>On Time</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_submissions</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-01 19:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c53afecd80403107f4403f75f9427a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-05 10:09:53</sys_updated_on>
+            <value>on_time</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>submission_status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Late</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_submissions</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-01 19:02:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c53afecd80403107f4403f75f9427a3</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-05 10:09:53</sys_updated_on>
+            <value>late</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

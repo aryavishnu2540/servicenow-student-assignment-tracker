@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Classes">dabd7b2a70b332107f44345fb4254636</application>
+        <filter/>
+        <name>Classes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_cdltd_student_0.classes_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-03-26 15:49:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1ebd7b2a70b332107f44345fb4254637</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Classes</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_ui_module_1ebd7b2a70b332107f44345fb4254637</sys_update_name>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-03-26 15:49:57</sys_updated_on>
+        <table>x_cdltd_student_0_classes</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

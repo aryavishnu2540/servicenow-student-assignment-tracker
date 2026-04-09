@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Teacher Analytics Dashboard">d6eb8808f9c003107f44a889cb2a7952</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-30 14:04:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>16eb0c08f9c003107f44a889cb2a7988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>par_dashboard_canvas_16eb0c08f9c003107f44a889cb2a7988</sys_update_name>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-03-30 14:04:20</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

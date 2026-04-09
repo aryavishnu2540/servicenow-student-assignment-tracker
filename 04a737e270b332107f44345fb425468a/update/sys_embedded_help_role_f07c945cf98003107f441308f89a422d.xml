@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_cdltd_student_0.teachers" name="x_cdltd_student_0.teachers">985cd05cf98003107f441308f89a42c4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-31 09:55:05</sys_created_on>
+        <sys_id>f07c945cf98003107f441308f89a422d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>985cd05cf98003107f441308f89a42c4</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_f07c945cf98003107f441308f89a422d</sys_update_name>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-03-31 09:55:05</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

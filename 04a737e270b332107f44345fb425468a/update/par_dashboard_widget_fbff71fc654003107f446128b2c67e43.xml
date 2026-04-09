@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">818fcc88f9c003107f44a889cb2a790c</canvas>
+        <component display_value="Filter">226449101138d0dff1abe0e1566c8b2a</component>
+        <component_props>{"filterId":"1jl6dt7k7qfqrtdmescs","filterName":"Label","filterComponentType":"multiselect","datasource":{"type":"table","payload":{"table":"x_cdltd_student_0_classes","primaryKey":"sys_id"}},"targets":[{"type":"table","payload":{"field":"class","table":"x_cdltd_student_0_assignments","primaryKey":"sys_id"}}],"defaultSelectedItems":[],"defaultSelectedDateRange":{"range":""},"dateFilterView":"calendar-reldates","sort":"ASC","filterElementType":"pill","isShowSelectedValueInPill":true,"filterElementLayout":"vertical","enableClearFilter":true,"primaryActionLabel":"Apply","maxElements":500,"filterConfigurations":"@state.parFilters","cascadeScope":"8d8fcc88f9c003107f44a889cb2a790a","isDashboard":true,"isGroup":false,"value":[]}</component_props>
+        <h>4</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-04-02 06:26:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fbff71fc654003107f446128b2c67e43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>par_dashboard_widget_fbff71fc654003107f446128b2c67e43</sys_update_name>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-04-02 06:26:57</sys_updated_on>
+        <visualization/>
+        <w>7</w>
+        <widget_props/>
+        <x>38</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>

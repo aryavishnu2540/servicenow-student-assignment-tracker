@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Class" section_id="999fb7aa70b332107f44345fb42546fe" sys_domain="global" table="x_cdltd_student_0_classes" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>class_name</element>
+            <position>0</position>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-02 15:13:38</sys_created_on>
+            <sys_id>2a883f30650803107f446128b2c67e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Class" display_value="Class" name="x_cdltd_student_0_classes" sys_domain="global" view="Default view">999fb7aa70b332107f44345fb42546fe</sys_ui_section>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:13:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject</element>
+            <position>1</position>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-02 15:13:38</sys_created_on>
+            <sys_id>6e883f30650803107f446128b2c67e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Class" display_value="Class" name="x_cdltd_student_0_classes" sys_domain="global" view="Default view">999fb7aa70b332107f44345fb42546fe</sys_ui_section>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:13:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-02 15:13:38</sys_created_on>
+            <sys_id>a2883f30650803107f446128b2c67e2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Class" display_value="Class" name="x_cdltd_student_0_classes" sys_domain="global" view="Default view">999fb7aa70b332107f44345fb42546fe</sys_ui_section>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:13:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_teacher</element>
+            <position>3</position>
+            <sys_created_by>arya.b</sys_created_by>
+            <sys_created_on>2026-04-02 15:13:38</sys_created_on>
+            <sys_id>e6883f30650803107f446128b2c67e2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Class" display_value="Class" name="x_cdltd_student_0_classes" sys_domain="global" view="Default view">999fb7aa70b332107f44345fb42546fe</sys_ui_section>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:13:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Class</caption>
+            <header>false</header>
+            <name>x_cdltd_student_0_classes</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>mohdaadil.j</sys_created_by>
+            <sys_created_on>2026-03-26 15:58:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>999fb7aa70b332107f44345fb42546fe</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_cdltd_student_0_classes</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+            <sys_update_name>sys_ui_section_999fb7aa70b332107f44345fb42546fe</sys_update_name>
+            <sys_updated_by>arya.b</sys_updated_by>
+            <sys_updated_on>2026-04-02 04:31:30</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

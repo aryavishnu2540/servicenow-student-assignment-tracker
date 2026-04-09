@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_class" table="x_cdltd_student_0_students" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_class</element>
+            <name>x_cdltd_student_0_students</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praharsha.ch</sys_created_by>
+            <sys_created_on>2026-04-02 15:22:19</sys_created_on>
+            <sys_id>f98a7fb0650803107f446128b2c67e80</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_class</sys_name>
+            <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+            <sys_update_name>sys_choice_x_cdltd_student_0_students_u_class</sys_update_name>
+            <sys_updated_by>praharsha.ch</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:22:19</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AIML-A</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_students</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>praharsha.ch</sys_created_by>
+            <sys_created_on>2026-04-02 15:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f49ab7b0650803107f446128b2c67e85</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praharsha.ch</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:22:53</sys_updated_on>
+            <value>AIML-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>AIML-B</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_students</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>praharsha.ch</sys_created_by>
+            <sys_created_on>2026-04-02 15:23:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e0aaffb0650803107f446128b2c67e14</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praharsha.ch</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:23:08</sys_updated_on>
+            <value>AIML-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSE-A</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_students</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>praharsha.ch</sys_created_by>
+            <sys_created_on>2026-04-02 15:22:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>936afbb0650803107f446128b2c67efb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praharsha.ch</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:22:26</sys_updated_on>
+            <value>CSE-A</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CSE-B</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_students</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>praharsha.ch</sys_created_by>
+            <sys_created_on>2026-04-02 15:22:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd8ab7b0650803107f446128b2c67e7a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praharsha.ch</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:22:39</sys_updated_on>
+            <value>CSE-B</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_class</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ECE</label>
+            <language>en</language>
+            <name>x_cdltd_student_0_students</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>praharsha.ch</sys_created_by>
+            <sys_created_on>2026-04-02 15:23:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8baffb0650803107f446128b2c67eae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>praharsha.ch</sys_updated_by>
+            <sys_updated_on>2026-04-02 15:23:19</sys_updated_on>
+            <value>ECE</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

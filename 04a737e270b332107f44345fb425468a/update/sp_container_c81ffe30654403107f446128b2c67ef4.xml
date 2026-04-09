@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>student_side - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="student_side">001ffe30654403107f446128b2c67ef3</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-02 11:02:31</sys_created_on>
+        <sys_id>c81ffe30654403107f446128b2c67ef4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>student_side - Container 1</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sp_container_c81ffe30654403107f446128b2c67ef4</sys_update_name>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-02 11:02:31</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

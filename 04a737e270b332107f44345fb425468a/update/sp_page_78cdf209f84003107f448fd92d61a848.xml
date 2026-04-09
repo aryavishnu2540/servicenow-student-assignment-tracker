@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>/* =========================================&#13;
+   1. PREMIUM "ACADEMIC" BACKGROUND&#13;
+   ========================================= */&#13;
+body, main.body, section.page, .sp-page-root {&#13;
+    background-color: #f0f4f8 !important;&#13;
+    background-image: radial-gradient(#cbd5e1 1.5px, transparent 1.5px) !important;&#13;
+    background-size: 25px 25px !important;&#13;
+    min-height: 100vh;&#13;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;&#13;
+}&#13;
+&#13;
+.wrapper-xl { padding-top: 20px !important; }&#13;
+&#13;
+/* =========================================&#13;
+   2. DASHBOARD ENTRANCE ANIMATION&#13;
+   ========================================= */&#13;
+.container {&#13;
+    animation: slideUpFade 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;&#13;
+    opacity: 0;&#13;
+}&#13;
+&#13;
+@keyframes slideUpFade {&#13;
+    0% { opacity: 0; transform: translateY(40px); }&#13;
+    100% { opacity: 1; transform: translateY(0); }&#13;
+}&#13;
+&#13;
+/* =========================================&#13;
+   3. ANIMATED GREETING TEXT&#13;
+   ========================================= */&#13;
+h1, h2.text-center {&#13;
+    font-weight: 900 !important;&#13;
+    letter-spacing: 1px;&#13;
+    background: linear-gradient(135deg, #0f172a 0%, #0ea5e9 100%);&#13;
+    background-size: 200% auto;&#13;
+    -webkit-background-clip: text;&#13;
+    -webkit-text-fill-color: transparent;&#13;
+    animation: textShine 4s linear infinite;&#13;
+    padding-bottom: 25px !important;&#13;
+    text-shadow: 0 4px 10px rgba(14, 165, 233, 0.1);&#13;
+}&#13;
+&#13;
+@keyframes textShine {&#13;
+    to { background-position: 200% center; }&#13;
+}&#13;
+&#13;
+/* =========================================&#13;
+   4. FORCE REPORTS/CHARTS TO FLOAT&#13;
+   ========================================= */&#13;
+.panel, .panel-default {&#13;
+    background-color: #ffffff !important;&#13;
+    border-radius: 16px !important;&#13;
+    border: 1px solid rgba(226, 232, 240, 0.8) !important;&#13;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06) !important;&#13;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;&#13;
+    overflow: hidden !important;&#13;
+    margin-bottom: 25px !important;&#13;
+}&#13;
+&#13;
+.panel:hover {&#13;
+    transform: translateY(-6px) !important;&#13;
+    box-shadow: 0 20px 40px rgba(14, 165, 233, 0.12) !important;&#13;
+    border-color: rgba(14, 165, 233, 0.4) !important;&#13;
+}&#13;
+&#13;
+.panel-heading {&#13;
+    background-color: #ffffff !important;&#13;
+    border-bottom: 1px solid #f1f5f9 !important;&#13;
+    padding: 18px 20px !important;&#13;
+}&#13;
+&#13;
+.panel-title {&#13;
+    font-weight: 800 !important;&#13;
+    color: #1e293b !important;&#13;
+    text-transform: uppercase;&#13;
+    letter-spacing: 0.5px;&#13;
+    font-size: 14px !important;&#13;
+}&#13;
+&#13;
+.panel-body { padding: 20px !important; }&#13;
+&#13;
+/* =========================================&#13;
+   5. BULLETPROOF ICON LINKS &#13;
+   ========================================= */&#13;
+a.sp-icon-link, .sp-icon-link {&#13;
+    display: block !important;&#13;
+    background-color: #ffffff !important;&#13;
+    border-radius: 16px !important;&#13;
+    border: 1px solid rgba(226, 232, 240, 0.8) !important;&#13;
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06) !important;&#13;
+    padding: 30px 20px !important;&#13;
+    text-align: center !important;&#13;
+    text-decoration: none !important;&#13;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;&#13;
+    margin-bottom: 25px !important;&#13;
+}&#13;
+&#13;
+a.sp-icon-link:hover, .sp-icon-link:hover {&#13;
+    transform: translateY(-10px) !important; &#13;
+    box-shadow: 0 15px 35px rgba(14, 165, 233, 0.2) !important; &#13;
+    border-color: #bae6fd !important; &#13;
+    text-decoration: none !important;&#13;
+}&#13;
+&#13;
+a.sp-icon-link .fa, .sp-icon-link .fa {&#13;
+    color: #0ea5e9 !important; &#13;
+    font-size: 55px !important; &#13;
+    display: block !important;&#13;
+    margin-bottom: 15px !important;&#13;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;&#13;
+}&#13;
+&#13;
+a.sp-icon-link:hover .fa, .sp-icon-link:hover .fa {&#13;
+    transform: scale(1.2) !important; &#13;
+    color: #0284c7 !important; &#13;
+    filter: drop-shadow(0px 4px 8px rgba(2, 132, 199, 0.3)) !important; &#13;
+}&#13;
+&#13;
+a.sp-icon-link h2, .sp-icon-link h2 {&#13;
+    color: #334155 !important;&#13;
+    font-weight: 700 !important;&#13;
+    font-size: 18px !important;&#13;
+    margin: 0 !important;&#13;
+    transition: color 0.3s ease !important;&#13;
+}&#13;
+&#13;
+a.sp-icon-link:hover h2, .sp-icon-link:hover h2 {&#13;
+    color: #0ea5e9 !important;&#13;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>hod_dashboard</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>x_cdltd_student_0.admin</roles>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-04-03 05:35:18</sys_created_on>
+        <sys_id>78cdf209f84003107f448fd92d61a848</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>hod_dashboard</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sp_page_78cdf209f84003107f448fd92d61a848</sys_update_name>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-04-07 20:20:10</sys_updated_on>
+        <title>HOD Dashboard</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=78cdf209f84003107f448fd92d61a848"/>
+</record_update>

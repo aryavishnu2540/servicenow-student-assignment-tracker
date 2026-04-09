@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_analytics_bucket">
+    <sys_analytics_bucket action="INSERT_OR_UPDATE">
+        <analytics_channel display_value="web">6496ef61c7001010393d265c95c260b9</analytics_channel>
+        <application_name>student portal</application_name>
+        <bucket_document_id>b7409e7c658003107f446128b2c67e8b</bucket_document_id>
+        <bucket_metadata/>
+        <bucket_metadata_customer_override/>
+        <bucket_table_name>sp_portal</bucket_table_name>
+        <bucket_type/>
+        <enable_unauthenticated_user_tracking>false</enable_unauthenticated_user_tracking>
+        <enabled>true</enabled>
+        <internal_name_for_index>x_cdltd_student_0.sp_portal.b7409e7c658003107f446128b2c67e8b</internal_name_for_index>
+        <sys_class_name>sys_analytics_bucket</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-02 07:39:21</sys_created_on>
+        <sys_id>dc9052bc658003107f446128b2c67ee5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>student portal</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_analytics_bucket_dc9052bc658003107f446128b2c67ee5</sys_update_name>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-02 07:39:21</sys_updated_on>
+    </sys_analytics_bucket>
+</record_update>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=110530000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>late_assignment_flow</internal_name>
+        <label_cache>[{"name":"99cac338-14c4-4175-8edc-ef5646f24750.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1c45f34e-8f51-416a-9bb4-fa4766d878f7.Records","label":"1 - Look Up Records➛Assignments Records","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"records","base_type":"records","usedInstances":{"40fc5a4c-827f-4ab8-8907-fa6a3409e5b3":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40fc5a4c-827f-4ab8-8907-fa6a3409e5b3.item","label":"2 - For Each➛Assignments Record","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"reference","base_type":"reference","usedInstances":{"0f730aa3-a5b0-4a51-81a6-40ec889b1188":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>4e5646eb803332107f447960900f95a1</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Late Assignment Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>da5646eb803332107f447960900f95ab</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 08:58:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fa5c7da3803332107f447960900f95b6</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name>Late Assignment Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_hub_flow_fa5c7da3803332107f447960900f95b6</sys_update_name>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:53</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 2026-03-30 15:40:53">7002244cf90403107f44a889cb2a7987</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=fa5c7da3803332107f447960900f95b6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=fa5c7da3803332107f447960900f95b6"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <published_version/>
+        <run_period/>
+        <run_start>2026-03-29 09:42:19</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 09:42:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>da5646eb803332107f447960900f95ab</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:52</sys_updated_on>
+        <time>1970-01-01 21:00:00</time>
+        <timer_type>11</timer_type>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:da5646eb803332107f447960900f95ab^sys_idNOT IN39ac5727d07332107f447d356074f6c3"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:da5646eb803332107f447960900f95ab</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="Arya Vishnu Vardhan Reddy Bommireddy">b13b439e2d7332107f44861a6066e5b0</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period/>
+        <run_start>2026-03-29 15:59:22</run_start>
+        <run_time>1970-01-01 21:00:00</run_time>
+        <run_type>daily</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('da5646eb803332107f447960900f95ab');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:59:22</sys_created_on>
+        <sys_id>39ac5727d07332107f447d356074f6c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:52</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">da5646eb803332107f447960900f95ab</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=fa5c7da3803332107f447960900f95b6"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=fa5c7da3803332107f447960900f95b6^sys_idNOT IN035c7da3803332107f447960900f95b7"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>fa5c7da3803332107f447960900f95b6</id>
+        <name>Late Assignment Flow</name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 08:58:40</sys_created_on>
+        <sys_id>035c7da3803332107f447960900f95b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-03-29 08:58:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=035c7da3803332107f447960900f95b7"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=fa5c7da3803332107f447960900f95b6^sys_idNOT IN2aa3c26b803332107f447960900f95ff"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">fa5c7da3803332107f447960900f95b6</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 09:30:35</sys_created_on>
+        <sys_id>2aa3c26b803332107f447960900f95ff</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:49</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXU/cMBD8K8jP18i5owXyVqk6qQ8tUjnxglC0sTd3ltYfdZyDgPjvrBNzAlrLLzvrnZ0Z+e5ZEHRIohE7Y1GshHEJowPaTQEZ3ZPR2KalZ8FpSD5OoklxxJXoo7c7tIEg8eMeaGDQR41RNLWUK3EEGvFmGn5q5mIGBzazFr65y2V9dSG/yJrv2bpupOTLXXUwpCM60dzdr0SAyLMpMz9/aplMvgF9jlpJtVnzkXJ9eV533zZdvdYbQPzKhJ+cftSS/uP3vRN8TOg06pPNf8KICPra0XR6ceAsF9sWHgfzhIUqYo8sXuHSPJWtNgNHOS2wOnij8Dok492CJOiozChPo3W/Fwdca+xhpHRbAmVkHJgPQ9acVRRJ/c3BP/x5W7g1bjZYmuQV0KmClKLpxoRDThwJLRO1FkIwbt+G6I9mHmYttppjq3ryD7x0MHtXgcrCK44Iqi3jP2b4FqLJLn4xDQ+/zO7bv2Peu/goitvFND8ooWwNUvlEg4ompO+84Pj2617uXwF1/kNQygIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=fa5c7da3803332107f447960900f95b6^sys_idNOT INd1dbdbe3d07332107f447d356074f607,1eea1363d07332107f447d356074f6aa"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">fa5c7da3803332107f447960900f95b6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>40fc5a4c-827f-4ab8-8907-fa6a3409e5b3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:55:47</sys_created_on>
+        <sys_id>d1dbdbe3d07332107f447d356074f607</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-03-30 21:00:01</sys_updated_on>
+        <ui_id>0f730aa3-a5b0-4a51-81a6-40ec889b1188</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBT8K8jntnKatLS9ISqklViQYMWFRdGL/QKWnI+1HaBb9b/vc+KULq1YkLig7c3vw56ZzrS3a6YkW7AEJY/m0VTEURyPOR/Pkiibxlk0ljEgRmzASiiQJg2Kykg6P4JufGG9TnguJpCI4Wx8nA8TyGbD2ZwfD3OYQpzwOU6yeKQcFpsN7Ullaw2rm7BOFfGgtDRYssXt3YDVYOglh4Yt1q9a74WqIUNNo1c91tfY3ar2Z1mJpsDSpaovnofNZegcfVtSh5Y8nIgPGD47LCUSkBy0xQEroJTgKrNiC2caKhgEeVnq1XbiQZWuI1rAs1W/6eWE+7kciZkIImyPaRCoK+dLcHBNNwvXmK1elRJoO00k5tBod7pb6wYua6eqsltxkOl+u9JNUV50irDtBTvfR2MJBNaep0fe0cqvH6qnqx7kmSpbSQJFXQnQ2xM4Z1TWOA9nzVBjq3EBda3K+7Q21aNqlwlKMbrXdBjlunqiN626L0cgPO4RqQqjM6ov2/INGOVJfKdraHkzYHZlTzVY+0KFNEx/NR5JRyxQSFsVWgnS1gl+WRhVuxN66hED8M0ghCGbvOUwMX8x1M6dL4F4ToXUTqbWNe3rPCWQxMCrYPcDcPJX82NZeAfSPgs/WgccRh7isFc73909uugaIQyTTwvD7CuFIdD48mn4Vwb4+M1f2R0ntba3O/63Dlxjfzacx1KDw33LH5j4mO/fga73/ZlCLe0BuL3psag9hrSD/8r4oXl0E5rbf4JPc3805e3nC2Xgv/lDuPsDoWvoyx8JAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d1dbdbe3d07332107f447d356074f607"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">fa5c7da3803332107f447960900f95b6</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:51:46</sys_created_on>
+        <sys_id>1eea1363d07332107f447d356074f6aa</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-03-30 21:00:01</sys_updated_on>
+        <ui_id>1c45f34e-8f51-416a-9bb4-fa4766d878f7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX30/bMBD+V7o8bVJUJbQU1jcEQpoEVALEC2OWEzutN9fJbKc/qPq/7xw7adYG1kpBAu3Rd2ffd3ff5ziPK48Rb+idJv0gwOHx6UkQ9HpBMBj0YhxGUW8QR0HUjzzfE3hKIVLjiFNYzjDPzXqBYsI1QUrnhAqNAoSVYmMxhYWCOMJUxvHywYWf/eWMJ4wTSYU3fHzyvQxLyKGp9IarLde+IDmOKIfQe4dyC7ReZtUSFT5ru6pv69xYRyqJgRL4Hl1oKggFDAnmivreFAuCdSqXlUVSTEaCbwwTJjSc6JnghWLPkPc0MHEJhapian3VErk+WXNygTW+0zKPdS5daDxJWUyV7QehCc65Pq/bbMAo0ywVdost2+5OeT4VN7YdXnVAORaw5ApA0MwUapC7MpK7STq/LVFeMlH0xDl5GmNerbDWkkW5NnhWHuXUTBlNcZYxMUaZTGes2AxYpt0xh0U34ekckhpKdHFsgHehr7h7CfaLwvyAJTNVXMMxsBkAMQ4MQXaEKs1l0coZinmuCofEQtmzvLXvqaU658DITeXQcvQ7N7htH1zFyDbNbIkly/QZHDGjrri1v5dOjoMN5eJUEGZQqJpYSA49xpp+z2F7/BPPsE02HKtuRMdMCGjVKLlPCV5+/vJDaaxz9amIJiqPpkxrYOGOqNo6tk05Fr0o5Xheb0ZTg5wwd2xXTQc4YYatCRPq+EjShOTvT5mHa8224B+Ci09eJdnxhk8qlRrZXtYUtyuWg3m+B4SS5yPDzE60fAmVo3nCKCdN359L49j6/hz9n9+fd0lyAESQnR4TnIniMQFA34r9wetX7NctnhX02nC/sMGnYFcDuKPTzvPBStgDTqmEO8jdubd4GiCW931Bme27vjQ6AfRaE0DvqB0BrKoyq0Y29Lx8P5pplvHPJh5vxwMFaxvCdZPADsoZHprzaL0r4N5BCq6TzXouXuBcyw/NFxTpv+UVMIGtLh+y+kVzRsZUb7KXUSTVc8x/Nfkd41A5qKK8N3i09l+V7SDcSBSUgiRVMLz6qzWE59HuHRL61nzYFbIHlrId13jRua3ANCJ01wgonY6L2dTvkW+V1ZG83+KD8d1+ScthNWqwnNmH+NdrTwhPfwAYZ0WW5xAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1eea1363d07332107f447d356074f6aa"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=fa5c7da3803332107f447960900f95b6^sys_idNOT IN347b57e3d07332107f447d356074f636"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">55ac5727d07332107f447d356074f64e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">fa5c7da3803332107f447960900f95b6</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:54:07</sys_created_on>
+        <sys_id>347b57e3d07332107f447d356074f636</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:49</sys_updated_on>
+        <ui_id>40fc5a4c-827f-4ab8-8907-fa6a3409e5b3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhr/qfNwKDAV66Ap0RS9DYdASnQiVJU2Sk3qG//uo2MmGHney+Ug+vidyZKYPtg/+1dx7Lw+a7X++r5jUEaP/kWnokO2ZDNh5tmInUH2MxzHj5V1blLjetnfZuswqWO+aply3UG6qSmw323aTvCA3TvhpolYhvVUwvP0/Az9KJRwuIi040hbQsf34JRUGi7WCBhUNWhioXwoKs51od1m640VeFXma5tsya6qiyXJRAIqK6q6dj4vpL28Q2Sl0N176RBV5umL4GVALpEEtKI8r1oEWEIwb2D64ngCHIJ61Gm4VR6kD0bFY++nlb+LO0jQWtkiOOM7JW1gvDznD/Ggkx2cbpNEzEqBRSw83qu/091l+XAG20KtwXQEhvSc+tFFzVLFIan8czfnlOvBB6ou/JakMB3WLIAQnmz6gj2tAhR0R1R1YK/Whts6c5KWZtHTJQVGQtMqcaWg8twR4FJ7QE0HyQPi3C/wGTkYXT0RDzdPFff2rj3NnH4viejZNBZ47acM90Z1wETe9x3udmfx8GAK59DTwNWKP1yuPiYGWLPm/0Nm4jyj1Lzb9AZpWA9MvAwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=fa5c7da3803332107f447960900f95b6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fa5c7da3803332107f447960900f95b6"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fa5c7da3803332107f447960900f95b6"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>late_assignment_flow</internal_name>
+        <label_cache>[{"name":"99cac338-14c4-4175-8edc-ef5646f24750.record","label":"3 - Update Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","usedInstances":{},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1c45f34e-8f51-416a-9bb4-fa4766d878f7.Records","label":"1 - Look Up Records➛Assignments Records","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"records","base_type":"records","usedInstances":{"40fc5a4c-827f-4ab8-8907-fa6a3409e5b3":["items"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40fc5a4c-827f-4ab8-8907-fa6a3409e5b3.item","label":"2 - For Each➛Assignments Record","reference":"x_cdltd_student_0_assignments","reference_display":"Assignments","type":"reference","base_type":"reference","usedInstances":{"0f730aa3-a5b0-4a51-81a6-40ec889b1188":["record"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master>true</master>
+        <name>Late Assignment Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Late Assignment Flow">fa5c7da3803332107f447960900f95b6</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 09:42:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4e5646eb803332107f447960900f95a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:51</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=4e5646eb803332107f447960900f95a1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=4e5646eb803332107f447960900f95a1"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=4e5646eb803332107f447960900f95a1^sys_idNOT IN065646eb803332107f447960900f95a2"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>4e5646eb803332107f447960900f95a1</id>
+        <name>Late Assignment Flow</name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 09:42:18</sys_created_on>
+        <sys_id>065646eb803332107f447960900f95a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-03-29 09:42:18</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=065646eb803332107f447960900f95a2"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4e5646eb803332107f447960900f95a1^sys_idNOT IN925646eb803332107f447960900f95a7"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">4e5646eb803332107f447960900f95a1</flow>
+        <generation_source/>
+        <name>Daily</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 09:42:18</sys_created_on>
+        <sys_id>925646eb803332107f447960900f95a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:51</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/21SXU/cMBD8K8jP18i5owXyVqk6qQ8tUjnxglC0sTd3ltYfdZyDgPjvrBNzAlrLLzvrnZ0Z+e5ZEHRIohE7Y1GshHEJowPaTQEZ3ZPR2KalZ8FpSD5OoklxxJXoo7c7tIEg8eMeaGDQR41RNLWUK3EEGvFmGn5q5mIGBzazFr65y2V9dSG/yJrv2bpupOTLXXUwpCM60dzdr0SAyLMpMz9/aplMvgF9jlpJtVnzkXJ9eV533zZdvdYbQPzKhJ+cftSS/uP3vRN8TOg06pPNf8KICPra0XR6ceAsF9sWHgfzhIUqYo8sXuHSPJWtNgNHOS2wOnij8Dok492CJOiozChPo3W/Fwdca+xhpHRbAmVkHJgPQ9acVRRJ/c3BP/x5W7g1bjZYmuQV0KmClKLpxoRDThwJLRO1FkIwbt+G6I9mHmYttppjq3ryD7x0MHtXgcrCK44Iqi3jP2b4FqLJLn4xDQ+/zO7bv2Peu/goitvFND8ooWwNUvlEg4ompO+84Pj2617uXwF1/kNQygIAAA==</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=4e5646eb803332107f447960900f95a1^sys_idNOT INa9ac5727d07332107f447d356074f666,6dac5727d07332107f447d356074f666"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">4e5646eb803332107f447960900f95a1</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:59:21</sys_created_on>
+        <sys_id>a9ac5727d07332107f447d356074f666</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-03-29 15:59:21</sys_updated_on>
+        <ui_id>1c45f34e-8f51-416a-9bb4-fa4766d878f7</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VX30/bMBD+V7o8bVJUJbQU1jcEQpoEVALEC2OWEzutN9fJbKc/qPq/7xw7adYG1kpBAu3Rd2ffd3ff5ziPK48Rb+idJv0gwOHx6UkQ9HpBMBj0YhxGUW8QR0HUjzzfE3hKIVLjiFNYzjDPzXqBYsI1QUrnhAqNAoSVYmMxhYWCOMJUxvHywYWf/eWMJ4wTSYU3fHzyvQxLyKGp9IarLde+IDmOKIfQe4dyC7ReZtUSFT5ru6pv69xYRyqJgRL4Hl1oKggFDAnmivreFAuCdSqXlUVSTEaCbwwTJjSc6JnghWLPkPc0MHEJhapian3VErk+WXNygTW+0zKPdS5daDxJWUyV7QehCc65Pq/bbMAo0ywVdost2+5OeT4VN7YdXnVAORaw5ApA0MwUapC7MpK7STq/LVFeMlH0xDl5GmNerbDWkkW5NnhWHuXUTBlNcZYxMUaZTGes2AxYpt0xh0U34ekckhpKdHFsgHehr7h7CfaLwvyAJTNVXMMxsBkAMQ4MQXaEKs1l0coZinmuCofEQtmzvLXvqaU658DITeXQcvQ7N7htH1zFyDbNbIkly/QZHDGjrri1v5dOjoMN5eJUEGZQqJpYSA49xpp+z2F7/BPPsE02HKtuRMdMCGjVKLlPCV5+/vJDaaxz9amIJiqPpkxrYOGOqNo6tk05Fr0o5Xheb0ZTg5wwd2xXTQc4YYatCRPq+EjShOTvT5mHa8224B+Ci09eJdnxhk8qlRrZXtYUtyuWg3m+B4SS5yPDzE60fAmVo3nCKCdN359L49j6/hz9n9+fd0lyAESQnR4TnIniMQFA34r9wetX7NctnhX02nC/sMGnYFcDuKPTzvPBStgDTqmEO8jdubd4GiCW931Bme27vjQ6AfRaE0DvqB0BrKoyq0Y29Lx8P5pplvHPJh5vxwMFaxvCdZPADsoZHprzaL0r4N5BCq6TzXouXuBcyw/NFxTpv+UVMIGtLh+y+kVzRsZUb7KXUSTVc8x/Nfkd41A5qKK8N3i09l+V7SDcSBSUgiRVMLz6qzWE59HuHRL61nzYFbIHlrId13jRua3ANCJ01wgonY6L2dTvkW+V1ZG83+KD8d1+ScthNWqwnNmH+NdrTwhPfwAYZ0WW5xAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a9ac5727d07332107f447d356074f666"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">4e5646eb803332107f447960900f95a1</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>40fc5a4c-827f-4ab8-8907-fa6a3409e5b3</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:59:21</sys_created_on>
+        <sys_id>6dac5727d07332107f447d356074f666</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>arya.b</sys_updated_by>
+        <sys_updated_on>2026-03-29 15:59:21</sys_updated_on>
+        <ui_id>0f730aa3-a5b0-4a51-81a6-40ec889b1188</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VVTU/jMBT8K8jntnKatLS9ISqklViQYMWFRdGL/QKWnI+1HaBb9b/vc+KULq1YkLig7c3vw56ZzrS3a6YkW7AEJY/m0VTEURyPOR/Pkiibxlk0ljEgRmzASiiQJg2Kykg6P4JufGG9TnguJpCI4Wx8nA8TyGbD2ZwfD3OYQpzwOU6yeKQcFpsN7Ullaw2rm7BOFfGgtDRYssXt3YDVYOglh4Yt1q9a74WqIUNNo1c91tfY3ar2Z1mJpsDSpaovnofNZegcfVtSh5Y8nIgPGD47LCUSkBy0xQEroJTgKrNiC2caKhgEeVnq1XbiQZWuI1rAs1W/6eWE+7kciZkIImyPaRCoK+dLcHBNNwvXmK1elRJoO00k5tBod7pb6wYua6eqsltxkOl+u9JNUV50irDtBTvfR2MJBNaep0fe0cqvH6qnqx7kmSpbSQJFXQnQ2xM4Z1TWOA9nzVBjq3EBda3K+7Q21aNqlwlKMbrXdBjlunqiN626L0cgPO4RqQqjM6ov2/INGOVJfKdraHkzYHZlTzVY+0KFNEx/NR5JRyxQSFsVWgnS1gl+WRhVuxN66hED8M0ghCGbvOUwMX8x1M6dL4F4ToXUTqbWNe3rPCWQxMCrYPcDcPJX82NZeAfSPgs/WgccRh7isFc73909uugaIQyTTwvD7CuFIdD48mn4Vwb4+M1f2R0ntba3O/63Dlxjfzacx1KDw33LH5j4mO/fga73/ZlCLe0BuL3psag9hrSD/8r4oXl0E5rbf4JPc3805e3nC2Xgv/lDuPsDoWvoyx8JAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6dac5727d07332107f447d356074f666"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4e5646eb803332107f447960900f95a1^sys_idNOT INa1ac5727d07332107f447d356074f667"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">55ac5727d07332107f447d356074f64e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Late Assignment Flow">4e5646eb803332107f447960900f95a1</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>arya.b</sys_created_by>
+        <sys_created_on>2026-03-29 15:59:21</sys_created_on>
+        <sys_id>a1ac5727d07332107f447d356074f667</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:51</sys_updated_on>
+        <ui_id>40fc5a4c-827f-4ab8-8907-fa6a3409e5b3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/51TXW+jMBD8L35OEARKPt6qVpUq3V2ltOrLqYoWe51YZ2zONkk5lP9+60Bo1cc+wY53Z2cG0zPbhqYN/sXeeq/2hm1+v82YMhGj954ZqJFtmApYezZjR9BtrPs+48WNzAucr+RNNi+yEubrqirmEoplWYrVciWXyRa5dcKfzzQqlG80dK/fZ+AHpYXDUWQDjrQFdGzTfzlSghZkayHXWbrm+aLMF2m6WBVZVeZVthA5oCiJUEOFmlofR3dfzIauiaUbJIzAj3FmO6H0iCIW6Yzhe0AjkNZL0B5nrAYjIFjXsU1wLQEOQTwZ3U0dB2UC0bHY++7VP9qYpWlslEiGOA6HU7kbcxxgeQ8Bnomah9aNrfxgFUc/RCFQQqvD3WdsaHhqgrJmGAlQ6eu01W1tfg1JsIng+tkIaT2JwCYajdJHH/L5YE/bq8oHZS6hjIfactBTBSE4VbUh6ukZaqyJaFdD0yiz3zXOHtVlmLTUyV5TkUhtT7Q0XtEEeBSeUK6QPBB+f4Ffwano4ifR0PB5xnzn7zR4/+GFQtz9baOSwdnoYTfEEEe4U024pQVHHOWe3+KtH7inTLnyJOElYo/XfyUedHSDFP8Mnaz7E8V/YOf/NraG9nUDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=4e5646eb803332107f447960900f95a1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4e5646eb803332107f447960900f95a1"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4e5646eb803332107f447960900f95a1"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>fa5c7da3803332107f447960900f95b6</sys_id>
+        <latest_snapshot>4e5646eb803332107f447960900f95a1</latest_snapshot>
+        <compiler_build>glide-zurich-07-01-2025__patch1-08-20-2025_09-08-2025_1328.zip</compiler_build>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=fa5c7da3803332107f447960900f95b6^sys_idNOT IN1a5646eb803332107f447960900f95ac"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1a5646eb803332107f447960900f95ac","name":"plan","plan_signature":null}}</plan>
+        <plan_id>fa5c7da3803332107f447960900f95b6</plan_id>
+        <snapshot>570ba544f90803107f44a889cb2a791b</snapshot>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-03-29 09:42:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a5646eb803332107f447960900f95ac</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>rani.a</sys_updated_by>
+        <sys_updated_on>2026-03-30 15:40:52</sys_updated_on>
+        <trigger display_value="">da5646eb803332107f447960900f95ab</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=fa5c7da3803332107f447960900f95b6"/>
+</record_update>
