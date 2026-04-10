@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-26 15:53:57</sys_created_on>
+        <sys_id>f4ae7b6a70b332107f44345fb4254687</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_student_0_student.x_cdltd_student_0.student_user</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_security_acl display_value="x_cdltd_student_0_student">b8ae7b6a70b332107f44345fb4254685</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_f4ae7b6a70b332107f44345fb4254687</sys_update_name>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-26 15:53:57</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_student_0.student_user" name="x_cdltd_student_0.student_user">fcaeb76a70b332107f44345fb42546a0</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</application>
+        <file_path/>
+        <instance_id>2e806e8ac33376d0a03197af05013164</instance_id>
+        <instance_name>indpt-mar-5377-0005</instance_name>
+        <name>sys_security_acl_role_f4ae7b6a70b332107f44345fb4254687</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>praharsha.ch</sys_created_by><sys_created_on>2026-03-26 15:53:57</sys_created_on><sys_id>f4ae7b6a70b332107f44345fb4254687</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_cdltd_student_0_student.x_cdltd_student_0.student_user</sys_name><sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package><sys_policy/><sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope><sys_security_acl display_value="x_cdltd_student_0_student">b8ae7b6a70b332107f44345fb4254685</sys_security_acl><sys_update_name>sys_security_acl_role_f4ae7b6a70b332107f44345fb4254687</sys_update_name><sys_updated_by>praharsha.ch</sys_updated_by><sys_updated_on>2026-03-26 15:53:57</sys_updated_on><sys_user_role display_value="x_cdltd_student_0.student_user" name="x_cdltd_student_0.student_user">fcaeb76a70b332107f44345fb42546a0</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-1999135446</payload_hash>
+        <record_name>x_cdltd_student_0_student.x_cdltd_student_0.student_user</record_name>
+        <reverted_from/>
+        <source>cca737e270b332107f44345fb42546e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-26 15:53:57</sys_created_on>
+        <sys_id>30ae7b6a70b332107f44345fb4254689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d2ada370e0000001</sys_recorded_at>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-26 15:53:57</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>f8ae7b6a5bb33210e4d35d23897a5588</update_guid>
+        <update_guid_history>f8ae7b6a5bb33210e4d35d23897a5588:-1999135446</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_cdltd_student_0_student.x_cdltd_student_0.student_user">48a1043e70b332107f44345fb42546ef</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-26 16:07:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>466a3507f07d473498574f375d1784f9</sys_id>
+        <sys_metadata>f4ae7b6a70b332107f44345fb4254687</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_student_0_student.x_cdltd_student_0.student_user</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_parent display_value="">b8ae7b6a70b332107f44345fb4254685</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_scope_delete display_value="">706b6986bb5f477e82082b7e7e47d021</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_f4ae7b6a70b332107f44345fb4254687</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_f4ae7b6a70b332107f44345fb4254687">30ae7b6a70b332107f44345fb4254689</sys_update_version>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-26 16:07:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

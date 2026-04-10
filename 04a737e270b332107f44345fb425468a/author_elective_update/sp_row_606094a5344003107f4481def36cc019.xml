@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>3</order>
+        <semantic_tag/>
+        <sp_column/>
+        <sp_container display_value="Teacher Dashboard - Container 1">b930d425344003107f4481def36cc0e0</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-04-04 06:14:45</sys_created_on>
+        <sys_id>606094a5344003107f4481def36cc019</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sp_row_606094a5344003107f4481def36cc019</sys_update_name>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-04-04 09:53:08</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</application>
+        <file_path/>
+        <instance_id>2e806e8ac33376d0a03197af05013164</instance_id>
+        <instance_name>indpt-mar-5377-0005</instance_name>
+        <name>sp_row_606094a5344003107f4481def36cc019</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>3</order><semantic_tag/><sp_column/><sp_container display_value="Teacher Dashboard - Container 1">b930d425344003107f4481def36cc0e0</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>pallavi.v</sys_created_by><sys_created_on>2026-04-04 06:14:45</sys_created_on><sys_id>606094a5344003107f4481def36cc019</sys_id><sys_mod_count>2</sys_mod_count><sys_name>3</sys_name><sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package><sys_policy/><sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope><sys_update_name>sp_row_606094a5344003107f4481def36cc019</sys_update_name><sys_updated_by>pallavi.v</sys_updated_by><sys_updated_on>2026-04-04 09:53:08</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>2134795412</payload_hash>
+        <record_name>3</record_name>
+        <reverted_from/>
+        <source>cca737e270b332107f44345fb42546e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-04-04 09:53:08</sys_created_on>
+        <sys_id>5f5209ad34c003107f4481def36cc0f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d57e91bde0000001</sys_recorded_at>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-04-04 09:53:08</sys_updated_on>
+        <type>Row</type>
+        <update_guid>5b5209adf9c00310c45c6fb4ab92ddf3</update_guid>
+        <update_guid_history>5b5209adf9c00310c45c6fb4ab92ddf3:2134795412,aa0bb4699ec00310de6384629a178e97:-2020467818,a86094a5ab400310617580c47dd45e19:-1880763752</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="3">c3ce8169340403107f4481def36cc00a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-04-04 10:47:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>a6884f9e975748c8840847963acf3640</sys_id>
+        <sys_metadata>606094a5344003107f4481def36cc019</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_scope_delete display_value="">706b6986bb5f477e82082b7e7e47d021</sys_scope_delete>
+        <sys_update_name>sp_row_606094a5344003107f4481def36cc019</sys_update_name>
+        <sys_update_version display_value="sp_row_606094a5344003107f4481def36cc019">5f5209ad34c003107f4481def36cc0f3</sys_update_version>
+        <sys_updated_by>pallavi.v</sys_updated_by>
+        <sys_updated_on>2026-04-04 10:47:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

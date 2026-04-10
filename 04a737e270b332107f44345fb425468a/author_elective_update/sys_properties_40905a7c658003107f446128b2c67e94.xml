@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description>If true, portal css would be in rem units</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>glide.service_portal.resize_text.stdt.enable_rem_conversion</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-02 07:39:21</sys_created_on>
+        <sys_id>40905a7c658003107f446128b2c67e94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.stdt.enable_rem_conversion</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_properties_40905a7c658003107f446128b2c67e94</sys_update_name>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-02 07:39:21</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=40905a7c658003107f446128b2c67e94"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</application>
+        <file_path/>
+        <instance_id>2e806e8ac33376d0a03197af05013164</instance_id>
+        <instance_name>indpt-mar-5377-0005</instance_name>
+        <name>sys_properties_40905a7c658003107f446128b2c67e94</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>If true, portal css would be in rem units</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>glide.service_portal.resize_text.stdt.enable_rem_conversion</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>kanishkar.m</sys_created_by><sys_created_on>2026-04-02 07:39:21</sys_created_on><sys_id>40905a7c658003107f446128b2c67e94</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.service_portal.resize_text.stdt.enable_rem_conversion</sys_name><sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package><sys_policy/><sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope><sys_update_name>sys_properties_40905a7c658003107f446128b2c67e94</sys_update_name><sys_updated_by>kanishkar.m</sys_updated_by><sys_updated_on>2026-04-02 07:39:21</sys_updated_on><type>boolean</type><value>true</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=40905a7c658003107f446128b2c67e94"/></record_update>]]></payload>
+        <payload_hash>1763209484</payload_hash>
+        <record_name>glide.service_portal.resize_text.stdt.enable_rem_conversion</record_name>
+        <reverted_from/>
+        <source>cca737e270b332107f44345fb42546e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-02 07:39:21</sys_created_on>
+        <sys_id>dc9052bc658003107f446128b2c67ee4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4d21eb430000001</sys_recorded_at>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-02 07:39:21</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>1c905a7c558003103461b72ff0b02c95</update_guid>
+        <update_guid_history>1c905a7c558003103461b72ff0b02c95:1763209484</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-03 09:27:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>2d798f7d1be04c56ac489f7714ced779</sys_id>
+        <sys_metadata>40905a7c658003107f446128b2c67e94</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.service_portal.resize_text.stdt.enable_rem_conversion</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_scope_delete display_value="">706b6986bb5f477e82082b7e7e47d021</sys_scope_delete>
+        <sys_update_name>sys_properties_40905a7c658003107f446128b2c67e94</sys_update_name>
+        <sys_update_version display_value="sys_properties_40905a7c658003107f446128b2c67e94">dc9052bc658003107f446128b2c67ee4</sys_update_version>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-03 09:27:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

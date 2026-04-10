@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <advanced_placeholder_dimensions>false</advanced_placeholder_dimensions>
+        <async_load>false</async_load>
+        <async_load_device_type>desktop,tablet,mobile</async_load_device_type>
+        <async_load_trigger>viewport</async_load_trigger>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>arrow-circle-o-up</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <placeholder_dimensions>{&#13;	"mobile": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"desktop": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	},&#13;	"tablet": {&#13;		"height": "250px",&#13;		"width": "100%"&#13;	}&#13;}</placeholder_dimensions>
+        <placeholder_dimensions_script><![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]></placeholder_dimensions_script>
+        <placeholder_template>&lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&lt;div ng-if="options.maxRowCount === 10"&gt;&lt;/div&gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&gt;
+	&lt;div class="skeleton-container"&gt;
+	&lt;!-- Header Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-header"&gt;&lt;/div&gt;
+	&lt;!-- Body Skeleton --&gt;
+	&lt;div class="skeleton-box skeleton-line"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line small"&gt;&lt;/div&gt;
+	&lt;div class="skeleton-box skeleton-line medium"&gt;&lt;/div&gt;
+&lt;/div&gt;</placeholder_template>
+        <preserve_placeholder_size>false</preserve_placeholder_size>
+        <roles/>
+        <sc_cat_item display_value="Submit Assignment">73843f4cf90003107f441308f89a42ee</sc_cat_item>
+        <sc_category/>
+        <short_description>Submit your Assignments here</short_description>
+        <size>md</size>
+        <sp_column display_value="1">b3f9ace9348003107f4481def36cc067</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>pallavi.v</sys_created_by>
+        <sys_created_on>2026-04-03 09:39:20</sys_created_on>
+        <sys_id>d79537c5f80403107f448fd92d61a833</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Submit Assignment</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sp_instance_link_d79537c5f80403107f448fd92d61a833</sys_update_name>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-04 08:06:44</sys_updated_on>
+        <title>Submit Assignment</title>
+        <type>url</type>
+        <url>/sp?id=sc_cat_item&amp;sys_id=73843f4cf90003107f441308f89a42ee</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=d79537c5f80403107f448fd92d61a833"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</application>
+        <file_path/>
+        <instance_id>2e806e8ac33376d0a03197af05013164</instance_id>
+        <instance_name>indpt-mar-5377-0005</instance_name>
+        <name>sp_instance_link_d79537c5f80403107f448fd92d61a833</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced_placeholder_dimensions&gt;false&lt;/advanced_placeholder_dimensions&gt;&lt;async_load&gt;false&lt;/async_load&gt;&lt;async_load_device_type&gt;desktop,tablet,mobile&lt;/async_load_device_type&gt;&lt;async_load_trigger&gt;viewport&lt;/async_load_trigger&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;arrow-circle-o-up&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;placeholder_dimensions&gt;{&amp;#13;	"mobile": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"desktop": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	},&amp;#13;	"tablet": {&amp;#13;		"height": "250px",&amp;#13;		"width": "100%"&amp;#13;	}&amp;#13;}&lt;/placeholder_dimensions&gt;&lt;placeholder_dimensions_script&gt;&lt;![CDATA[function evaluateConfig(options) { return {	"mobile": {		"height": "250px",		"width": "100%"	},	"desktop": {		"height": "250px",		"width": "100%"	},	"tablet": {		"height": "250px",		"width": "100%"	}}; }]]&gt;&lt;/placeholder_dimensions_script&gt;&lt;placeholder_template&gt;&amp;lt;!-- 
+	AngularJS template with configurable options.
+	Use the `options` object to control dynamic behavior.
+	Example: Display an element when max row count is 10:
+	&amp;lt;div ng-if="options.maxRowCount === 10"&amp;gt;&amp;lt;/div&amp;gt;
+	The `skeleton-container` class is used for loading placeholders.
+--&amp;gt;
+	&amp;lt;div class="skeleton-container"&amp;gt;
+	&amp;lt;!-- Header Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-header"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;!-- Body Skeleton --&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line small"&amp;gt;&amp;lt;/div&amp;gt;
+	&amp;lt;div class="skeleton-box skeleton-line medium"&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/placeholder_template&gt;&lt;preserve_placeholder_size&gt;false&lt;/preserve_placeholder_size&gt;&lt;roles/&gt;&lt;sc_cat_item display_value="Submit Assignment"&gt;73843f4cf90003107f441308f89a42ee&lt;/sc_cat_item&gt;&lt;sc_category/&gt;&lt;short_description&gt;Submit your Assignments here&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;b3f9ace9348003107f4481def36cc067&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;pallavi.v&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-03 09:39:20&lt;/sys_created_on&gt;&lt;sys_id&gt;d79537c5f80403107f448fd92d61a833&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;Submit Assignment&lt;/sys_name&gt;&lt;sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0"&gt;04a737e270b332107f44345fb425468a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Student Assignment Tracker"&gt;04a737e270b332107f44345fb425468a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_d79537c5f80403107f448fd92d61a833&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;kanishkar.m&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-04 08:06:44&lt;/sys_updated_on&gt;&lt;title&gt;Submit Assignment&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;/sp?id=sc_cat_item&amp;amp;sys_id=73843f4cf90003107f441308f89a42ee&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d79537c5f80403107f448fd92d61a833"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-13152749</payload_hash>
+        <record_name>Submit Assignment</record_name>
+        <reverted_from/>
+        <source>cca737e270b332107f44345fb42546e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-04 08:06:44</sys_created_on>
+        <sys_id>f00aace9348003107f4481def36cc06c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d5787b2ae0000001</sys_recorded_at>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-04 08:06:44</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>fc0aace9dd800310941ecd97217b7e6b</update_guid>
+        <update_guid_history>fc0aace9dd800310941ecd97217b7e6b:-13152749,f5e7906d6e400310042fbdda2cfb1c8e:1885311881,63b7dc2d53400310853e7330d43885d5:726693918,ad755ca9904003103c65ab7a73b3e04e:-543161525,a2cf4c654d400310b52d9580e6f19b0a:2100675655,fb0f8c2592400310ff8c9d1cc8bf79ec:-931374035,aadecc25104003106a86164f38771cc2:337713193,7a3e84258e400310baa24746c76350a6:-931374035,480ec0259c400310ae1a95275d67986d:-1358478077,6f4b0c6176400310ca429bab017b90e9:-1315083888,0b4bc0619e40031063ac304ed3e00028:317139515,4a0b4861104003109aa5b18a3abdd186:166645078,37cdbb096c040310d2c73c307f7f7404:-1414658446,78ad37095e04031044bf7f2c4a0dcc95:-59060331,139537c54c0403103978245c5ba42634:-1737789371</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Submit Assignment">69d2d6b1340443107f4481def36cc021</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kanishkar.m</sys_created_by>
+        <sys_created_on>2026-04-05 10:23:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>a5be19b81f9f4dfc80f3de19b8584221</sys_id>
+        <sys_metadata>d79537c5f80403107f448fd92d61a833</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Submit Assignment</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_scope_delete display_value="">706b6986bb5f477e82082b7e7e47d021</sys_scope_delete>
+        <sys_update_name>sp_instance_link_d79537c5f80403107f448fd92d61a833</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_d79537c5f80403107f448fd92d61a833">f00aace9348003107f4481def36cc06c</sys_update_version>
+        <sys_updated_by>kanishkar.m</sys_updated_by>
+        <sys_updated_on>2026-04-05 10:23:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

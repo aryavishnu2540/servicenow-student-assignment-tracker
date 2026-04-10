@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>arya.b</sys_created_by>
         <sys_created_on>2026-04-02 14:53:00</sys_created_on>
-        <sys_id>29a3f73c65c403107f446128b2c67e7b</sys_id>
         <sys_name>Department</sys_name>
         <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
         <sys_policy/>

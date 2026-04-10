@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="21aa73a670b332107f44345fb4254670" label="Assignments" max_length="40" name="x_cdltd_student_0_assignments" type="collection">
+        <element choice="3" default="created" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Created" sequence="0" value="created"/>
+                <element inactive_on_update="false" label="Assigned" sequence="1" value="assigned"/>
+                <element inactive_on_update="false" label="Submitted" sequence="2" value="submitted"/>
+                <element inactive_on_update="false" label="Late" sequence="3" value="late"/>
+                <element inactive_on_update="false" label="Graded" sequence="4" value="graded"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="40" name="description" type="string"/>
+        <element display="true" label="Assignment Title" mandatory="true" max_length="40" name="assignment_title" type="string"/>
+        <element label="Class" max_length="32" name="class" reference="x_cdltd_student_0_classes" type="reference"/>
+        <element choice="1" label="class" mandatory="true" max_length="40" name="u_class" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="AIML-A" value="AIML-A"/>
+                <element inactive_on_update="false" label="CSE-B" value="CSE-B"/>
+                <element inactive_on_update="false" label="AIML-B" value="AIML-B"/>
+                <element inactive_on_update="false" label="ECE" value="ECE"/>
+                <element inactive_on_update="false" label="CSE-A" value="CSE-A"/>
+            </choice>
+        </element>
+        <element label="Instructions" max_length="65536" name="instructions" type="html"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="due_date" type="glide_date"/>
+        <index name="index">
+            <element name="class"/>
+        </index>
+    </element>
+</database>

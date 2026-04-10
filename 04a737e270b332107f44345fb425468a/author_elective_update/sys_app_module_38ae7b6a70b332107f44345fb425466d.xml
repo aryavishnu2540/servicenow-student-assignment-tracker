@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Student">fcae7b6a70b332107f44345fb425466b</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Students</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_student_0_student</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_cdltd_student_0.student_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-26 15:53:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38ae7b6a70b332107f44345fb425466d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Students</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sys_app_module_38ae7b6a70b332107f44345fb425466d</sys_update_name>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-26 15:53:56</sys_updated_on>
+        <timeline_page/>
+        <title>Students</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</application>
+        <file_path/>
+        <instance_id>2e806e8ac33376d0a03197af05013164</instance_id>
+        <instance_name>indpt-mar-5377-0005</instance_name>
+        <name>sys_app_module_38ae7b6a70b332107f44345fb425466d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Student">fcae7b6a70b332107f44345fb425466b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Students</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_student_0_student</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_cdltd_student_0.student_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>praharsha.ch</sys_created_by><sys_created_on>2026-03-26 15:53:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>38ae7b6a70b332107f44345fb425466d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Students</sys_name><sys_overrides/><sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package><sys_policy/><sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope><sys_update_name>sys_app_module_38ae7b6a70b332107f44345fb425466d</sys_update_name><sys_updated_by>praharsha.ch</sys_updated_by><sys_updated_on>2026-03-26 15:53:56</sys_updated_on><timeline_page/><title>Students</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-567430016</payload_hash>
+        <record_name>Students</record_name>
+        <reverted_from/>
+        <source>cca737e270b332107f44345fb42546e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-26 15:53:56</sys_created_on>
+        <sys_id>b8ae7b6a70b332107f44345fb425466e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d2ada342d0000001</sys_recorded_at>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-26 15:53:56</sys_updated_on>
+        <type>Module</type>
+        <update_guid>74ae7b6aefb33210ab767a2e5a4a286e</update_guid>
+        <update_guid_history>74ae7b6aefb33210ab767a2e5a4a286e:-567430016</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Students">40a1043e70b332107f44345fb42546f5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-03-26 16:07:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>61baef84abc44955a0c0be67d24e69f1</sys_id>
+        <sys_metadata>38ae7b6a70b332107f44345fb425466d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Students</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_scope_delete display_value="">706b6986bb5f477e82082b7e7e47d021</sys_scope_delete>
+        <sys_update_name>sys_app_module_38ae7b6a70b332107f44345fb425466d</sys_update_name>
+        <sys_update_version display_value="sys_app_module_38ae7b6a70b332107f44345fb425466d">b8ae7b6a70b332107f44345fb425466e</sys_update_version>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-03-26 16:07:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

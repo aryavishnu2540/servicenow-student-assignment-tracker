@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Teacher Assignment Page - Container 2</name>
+        <order>2</order>
+        <semantic_tag/>
+        <sp_page display_value="teacher_assignment_page">76bb3ff0650803107f446128b2c67e47</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-04-02 15:27:35</sys_created_on>
+        <sys_id>f6bb3ff0650803107f446128b2c67e48</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Teacher Assignment Page - Container 2</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_update_name>sp_container_f6bb3ff0650803107f446128b2c67e48</sys_update_name>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:27:40</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</application>
+        <file_path/>
+        <instance_id>2e806e8ac33376d0a03197af05013164</instance_id>
+        <instance_name>indpt-mar-5377-0005</instance_name>
+        <name>sp_container_f6bb3ff0650803107f446128b2c67e48</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Teacher Assignment Page - Container 2</name><order>2</order><semantic_tag/><sp_page display_value="teacher_assignment_page">76bb3ff0650803107f446128b2c67e47</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>praharsha.ch</sys_created_by><sys_created_on>2026-04-02 15:27:35</sys_created_on><sys_id>f6bb3ff0650803107f446128b2c67e48</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Teacher Assignment Page - Container 2</sys_name><sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package><sys_policy/><sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope><sys_update_name>sp_container_f6bb3ff0650803107f446128b2c67e48</sys_update_name><sys_updated_by>praharsha.ch</sys_updated_by><sys_updated_on>2026-04-02 15:27:40</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1682301063</payload_hash>
+        <record_name>Teacher Assignment Page - Container 2</record_name>
+        <reverted_from/>
+        <source>cca737e270b332107f44345fb42546e2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-04-02 15:27:40</sys_created_on>
+        <sys_id>58cb7ff0650803107f446128b2c67e78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d4ecead930000001</sys_recorded_at>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:27:40</sys_updated_on>
+        <type>Container</type>
+        <update_guid>54cb7ff020080310844bcdad31a9a978</update_guid>
+        <update_guid_history>54cb7ff020080310844bcdad31a9a978:-1682301063,bebb3ff0e8080310b51786ff3fe54448:366584378</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Teacher Assignment Page - Container 2">28ebbff0650803107f446128b2c67ea6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praharsha.ch</sys_created_by>
+        <sys_created_on>2026-04-02 15:28:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>82c98dfcb3f4475ca3dadd5df8327121</sys_id>
+        <sys_metadata>f6bb3ff0650803107f446128b2c67e48</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teacher Assignment Page - Container 2</sys_name>
+        <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Student Assignment Tracker">04a737e270b332107f44345fb425468a</sys_scope>
+        <sys_scope_delete display_value="">706b6986bb5f477e82082b7e7e47d021</sys_scope_delete>
+        <sys_update_name>sp_container_f6bb3ff0650803107f446128b2c67e48</sys_update_name>
+        <sys_update_version display_value="sp_container_f6bb3ff0650803107f446128b2c67e48">58cb7ff0650803107f446128b2c67e78</sys_update_version>
+        <sys_updated_by>praharsha.ch</sys_updated_by>
+        <sys_updated_on>2026-04-02 15:28:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

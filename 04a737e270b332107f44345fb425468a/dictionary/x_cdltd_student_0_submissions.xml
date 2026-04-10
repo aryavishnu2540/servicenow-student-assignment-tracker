@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8b134c7e70b332107f44345fb42546be" label="Submissions" max_length="40" name="x_cdltd_student_0_submissions" type="collection">
+        <element choice="3" default="on_time" label="Submission Status" max_length="40" name="submission_status" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Late" sequence="2" value="late"/>
+                <element inactive_on_update="false" label="On Time" sequence="1" value="on_time"/>
+                <element inactive_on_update="false" label="Graded" sequence="0" value="graded"/>
+            </choice>
+        </element>
+        <element label="Grade" max_length="40" name="grade" type="decimal"/>
+        <element label="Submission Date" max_length="40" name="submission_date" read_only="true" type="glide_date"/>
+        <element label="Remarks" max_length="500" name="remarks" type="string"/>
+        <element label="Assignment" mandatory="true" max_length="32" name="assignment" read_only="true" reference="x_cdltd_student_0_assignments" type="reference"/>
+        <element display="true" label="Student" mandatory="true" max_length="32" name="student" read_only="true" reference="x_cdltd_student_0_students" type="reference"/>
+        <index name="index">
+            <element name="assignment"/>
+        </index>
+        <index name="index2">
+            <element name="student"/>
+        </index>
+    </element>
+</database>

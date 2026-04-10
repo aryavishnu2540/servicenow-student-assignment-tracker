@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>arya.b</sys_created_by>
         <sys_created_on>2026-04-02 15:06:42</sys_created_on>
-        <sys_id>81f6b7fc65c403107f446128b2c67e74</sys_id>
         <sys_name>Assigned Teacher</sys_name>
         <sys_package display_value="Student Assignment Tracker" source="x_cdltd_student_0">04a737e270b332107f44345fb425468a</sys_package>
         <sys_policy/>

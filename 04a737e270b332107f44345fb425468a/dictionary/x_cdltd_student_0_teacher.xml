@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cef2fff865c403107f446128b2c67ec7" label="Teacher" max_length="40" name="x_cdltd_student_0_teacher" type="collection">
+        <element label="Department" max_length="40" name="department" type="string"/>
+        <element display="true" label="Teacher Name" max_length="40" name="teacher_name" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+    </element>
+</database>

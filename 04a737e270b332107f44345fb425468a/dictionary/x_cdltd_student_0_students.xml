@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="fc08bbe270b332107f44345fb4254666" label="Students" max_length="40" name="x_cdltd_student_0_students" type="collection">
+        <element display="true" label="Student Name" mandatory="true" max_length="40" name="student_name" type="string"/>
+        <element choice="1" label="class" max_length="40" name="u_class" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="CSE-A" value="CSE-A"/>
+                <element inactive_on_update="false" label="ECE" value="ECE"/>
+                <element inactive_on_update="false" label="AIML-B" value="AIML-B"/>
+                <element inactive_on_update="false" label="AIML-A" value="AIML-A"/>
+                <element inactive_on_update="false" label="CSE-B" value="CSE-B"/>
+            </choice>
+        </element>
+        <element label="Class" max_length="40" name="class" reference="x_cdltd_student_0_classes" type="reference"/>
+        <element label="Student Id" mandatory="true" max_length="40" name="student_id" type="string"/>
+        <element label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f9383be270b332107f44345fb42546b6" label="Classes" max_length="40" name="x_cdltd_student_0_classes" type="collection">
+        <element display="true" label="Class Name" max_length="40" name="class_name" type="string"/>
+        <element label="Assigned Teacher" max_length="32" name="assigned_teacher" reference="x_cdltd_student_0_teacher" type="reference"/>
+        <element label="Subject" max_length="40" name="subject" type="string"/>
+        <index name="index">
+            <element name="assigned_teacher"/>
+        </index>
+    </element>
+</database>
